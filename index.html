@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>SimReady Residence | Interactive 3D Home Explorer</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <header class="hud-header">
+    <div class="brand">
+      <h1>SimReady Residence</h1>
+      <span class="subtitle" id="current-room-label">Living Room</span>
+    </div>
+
+    <nav aria-label="Room teleport" class="room-nav">
+      <div role="toolbar" focusgroup="toolbar wrap" aria-label="Home exploration controls" aria-controls="viewport-canvas" id="main-toolbar">
+        <div role="group" aria-label="Rooms" class="toolbar-group">
+          <button type="button" class="room-btn" data-room="living" aria-pressed="true">Living</button>
+          <button type="button" class="room-btn" data-room="kitchen" aria-pressed="false">Kitchen</button>
+          <button type="button" class="room-btn" data-room="study" aria-pressed="false">Study</button>
+          <button type="button" class="room-btn" data-room="bedroom" aria-pressed="false">Bedroom</button>
+          <button type="button" class="room-btn" data-room="bathroom" aria-pressed="false">Bath</button>
+          <button type="button" class="room-btn" data-room="deck" aria-pressed="false">Deck</button>
+        </div>
+
+        <span role="separator" aria-orientation="vertical" class="toolbar-sep"></span>
+
+        <div role="group" aria-label="Camera and view" class="toolbar-group">
+          <button type="button" id="btn-mode-walk" aria-pressed="true" title="First-Person Walk Mode (WASD + Drag)">Walk</button>
+          <button type="button" id="btn-mode-orbit" aria-pressed="false" title="Dollhouse Orbit Mode">Orbit</button>
+          <button type="button" id="btn-ceiling" aria-pressed="true" title="Toggle Roof &amp; Ceiling (C)">Roof</button>
+          <button type="button" id="btn-lighting" aria-pressed="false" title="Cycle Lighting: Daylight / Golden Hour / Evening (L)">Daylight</button>
+          <button type="button" id="btn-minimap" aria-pressed="true" title="Toggle Floorplan Minimap (M)">Map</button>
+        </div>
+
+        <span role="separator" aria-orientation="vertical" class="toolbar-sep"></span>
+
+        <div role="group" aria-label="Help" class="toolbar-group">
+          <button type="button" id="btn-help" command="show-modal" commandfor="help-dialog" aria-label="Controls and Info" title="Controls &amp; Dataset Info (?)">?</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="viewport-shell">
+    <canvas id="viewport-canvas" tabindex="0" aria-label="Interactive 3D view of the furnished SimReady home"></canvas>
+
+    <div id="loading-banner" class="loading-banner" role="status" aria-live="polite">
+      <div class="loading-head">
+        <span class="loading-title">Furnishing home from NVIDIA SimReady Assets…</span>
+        <span id="loading-pct">0%</span>
+      </div>
+      <progress id="loading-progress" value="0" max="100"></progress>
+    </div>
+
+    <div class="crosshair" id="walk-crosshair" aria-hidden="true"></div>
+
+    <aside id="minimap-panel" class="minimap-panel" aria-label="Interactive floorplan map">
+      <canvas id="minimap-canvas" width="210" height="154" aria-label="Top-down home floorplan showing your location"></canvas>
+      <p class="minimap-hint">Click any room on map to jump</p>
+    </aside>
+
+    <aside id="inspector-card" class="inspector-card" hidden aria-label="Selected SimReady asset details">
+      <div class="inspector-header">
+        <div>
+          <span class="inspector-badge" id="insp-badge">NVIDIA SimReady</span>
+          <h2 id="insp-title">Asset Name</h2>
+        </div>
+        <button type="button" id="insp-close" class="icon-close" aria-label="Close asset details">✕</button>
+      </div>
+      <dl class="inspector-specs" id="insp-specs"></dl>
+      <details class="inspector-extra">
+        <summary>Physics &amp; Semantic Tags</summary>
+        <div id="insp-tags" class="tag-list"></div>
+        <div id="insp-physics" class="physics-list"></div>
+      </details>
+    </aside>
+
+    <div class="bottom-hint" id="bottom-hint">
+      <span><strong>WASD / Arrows</strong> move</span>
+      <span><strong>Drag</strong> look around</span>
+      <span><strong>Click</strong> inspect furniture / toggle doors</span>
+      <span><strong>1–6</strong> rooms</span>
+    </div>
+
+    <p role="status" aria-live="polite" id="live-status" class="visually-hidden"></p>
+  </main>
+
+  <dialog id="help-dialog" closedby="any" aria-labelledby="help-title">
+    <div class="dialog-body">
+      <h2 id="help-title">SimReady Residence Controls</h2>
+      <p class="dialog-lead">
+        Built with open-source 3D assets from <a href="https://huggingface.co/datasets/nvidia/simready-assets" target="_blank" rel="noopener noreferrer">nvidia/simready-assets</a> (CC-BY-4.0), converted from OpenUSD with PBR materials and SimReady physics metadata.
+      </p>
+      <dl class="controls-grid">
+        <dt>Walk Mode</dt>
+        <dd><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> or Arrow keys to walk; hold <kbd>Shift</kbd> to move faster; drag canvas (or double-click for Pointer Lock) to look around.</dd>
+        <dt>Orbit / Dollhouse</dt>
+        <dd>Click <strong>Orbit</strong> (or press <kbd>V</kbd>) to zoom and rotate around the home. Toggle <strong>Roof</strong> (<kbd>C</kbd>) for a full architectural cutaway.</dd>
+        <dt>Inspect &amp; Interact</dt>
+        <dd>Click any piece of furniture, appliance, or decor to inspect its NVIDIA SimReady dimensions, mass, friction, and semantic labels. Click wooden doors to swing them open or shut.</dd>
+        <dt>Lighting &amp; Rooms</dt>
+        <dd>Press <kbd>L</kbd> to cycle Daylight, Golden Hour, and Warm Evening interior lighting. Press <kbd>1</kbd>–<kbd>6</kbd> or click room tabs to jump between rooms.</dd>
+      </dl>
+      <form method="dialog" class="dialog-actions">
+        <button type="submit" value="close" class="primary-btn" autofocus>Resume Exploring</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

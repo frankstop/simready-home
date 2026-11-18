@@ -1,0 +1,3725 @@
+{
+  "furniture_couch_a01": {
+    "asset_id": "furniture_couch_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q131514",
+      "couch",
+      "fabric",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__fabric__cotton_gray_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 15.536,
+    "package_id": "simready.hf.nvidia.simready-assets.furniture_couch_a01.2026.11.12_061231248439",
+    "dimensions_m": [
+      0.892,
+      0.872,
+      2.284
+    ],
+    "triangles": 23482,
+    "raw_triangles": 613958,
+    "glb_size_kb": 1165.3,
+    "materials_count": 2,
+    "textures_count": 6,
+    "glb_file": "models/furniture_couch_a01.glb"
+  },
+  "sofa_soft_b01": {
+    "asset_id": "sofa_soft_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q131514",
+      "couch",
+      "leather",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__leather__glossy_gray_a01",
+        "density": 860.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.25,
+        "staticFriction": 0.55
+      }
+    ],
+    "mass_kg": 24.229,
+    "package_id": "simready.hf.nvidia.simready-assets.sofa_soft_b01.2026.10.09_165622181906",
+    "dimensions_m": [
+      0.708,
+      0.728,
+      0.713
+    ],
+    "triangles": 18208,
+    "raw_triangles": 45640,
+    "glb_size_kb": 1075.3,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/sofa_soft_b01.glb"
+  },
+  "sofa_soft_b02": {
+    "asset_id": "sofa_soft_b02",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q131514",
+      "couch",
+      "leather",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__leather__glossy_gray_a01",
+        "density": 860.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.25,
+        "staticFriction": 0.55
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 31.588,
+    "package_id": "simready.hf.nvidia.simready-assets.sofa_soft_b02.2026.10.09_165626981862",
+    "dimensions_m": [
+      0.703,
+      0.728,
+      1.526
+    ],
+    "triangles": 18797,
+    "raw_triangles": 59144,
+    "glb_size_kb": 1191.3,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/sofa_soft_b02.glb"
+  },
+  "furniture_table_coffee_low_a01": {
+    "asset_id": "furniture_table_coffee_low_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2407432",
+      "coffee table",
+      "rubber",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__rubber__new_black_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__brushedAniso_clean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__tintedMidGloss_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 52.001,
+    "package_id": "simready.hf.nvidia.simready-assets.furniture_table_coffee_low_a01.2026.10.09_050900432739",
+    "dimensions_m": [
+      0.6,
+      0.443,
+      1.2
+    ],
+    "triangles": 9908,
+    "raw_triangles": 9908,
+    "glb_size_kb": 728.3,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/furniture_table_coffee_low_a01.glb"
+  },
+  "furniture_coffeeTable_a01": {
+    "asset_id": "furniture_coffeeTable_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2407432",
+      "coffee table",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__furniture_coffeetable_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__furniture_coffeetable_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 25.921,
+    "package_id": "simready.hf.nvidia.simready-assets.furniture_coffeeTable_a01.2026.11.06_153739192438",
+    "dimensions_m": [
+      1.325,
+      0.481,
+      0.726
+    ],
+    "triangles": 15146,
+    "raw_triangles": 50720,
+    "glb_size_kb": 805.4,
+    "materials_count": 2,
+    "textures_count": 3,
+    "glb_file": "models/furniture_coffeeTable_a01.glb"
+  },
+  "textileDecor_rug_a01": {
+    "asset_id": "textileDecor_rug_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q104602244",
+      "fabric",
+      "rug"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__fabric__miscRug_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 1.042,
+    "package_id": "simready.hf.nvidia.simready-assets.textileDecor_rug_a01.2026.11.12_070315207682",
+    "dimensions_m": [
+      0.776,
+      0.009,
+      1.076
+    ],
+    "triangles": 6000,
+    "raw_triangles": 456684,
+    "glb_size_kb": 789.5,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/textileDecor_rug_a01.glb"
+  },
+  "textileDecor_doormat_a01": {
+    "asset_id": "textileDecor_doormat_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1136834",
+      "fabric",
+      "mat"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__fabric__doormat_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 1.04,
+    "package_id": "simready.hf.nvidia.simready-assets.textileDecor_doormat_a01.2026.11.12_080210638266",
+    "dimensions_m": [
+      1.074,
+      0.017,
+      0.776
+    ],
+    "triangles": 5540,
+    "raw_triangles": 20412,
+    "glb_size_kb": 699.1,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/textileDecor_doormat_a01.glb"
+  },
+  "bedding_a01": {
+    "asset_id": "bedding_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1762457",
+      "bedding",
+      "fabric"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__fabric__blanket_white_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__fabric__sheet_grey_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__fabric__blanket_blue_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__fabric__pillow_white_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 3.775,
+    "package_id": "simready.hf.nvidia.simready-assets.bedding_a01.2026.10.12_205940615443",
+    "dimensions_m": [
+      2.032,
+      0.399,
+      0.87
+    ],
+    "triangles": 20519,
+    "raw_triangles": 290635,
+    "glb_size_kb": 1358.8,
+    "materials_count": 4,
+    "textures_count": 11,
+    "glb_file": "models/bedding_a01.glb"
+  },
+  "fixture_counter_a01": {
+    "asset_id": "fixture_counter_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1420266",
+      "counter",
+      "plastic",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__white_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 32.976,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_counter_a01.2026.10.10_185802539552",
+    "dimensions_m": [
+      0.68,
+      0.927,
+      3.023
+    ],
+    "triangles": 107391,
+    "raw_triangles": 705540,
+    "glb_size_kb": 3713.2,
+    "materials_count": 35,
+    "textures_count": 15,
+    "glb_file": "models/fixture_counter_a01.glb"
+  },
+  "fixture_island_a01": {
+    "asset_id": "fixture_island_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q116970634",
+      "kitchen island",
+      "plastic",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__oak_b01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 43.384,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_island_a01.2026.10.09_032823391094",
+    "dimensions_m": [
+      0.631,
+      0.9,
+      1.241
+    ],
+    "triangles": 18362,
+    "raw_triangles": 59490,
+    "glb_size_kb": 1365.0,
+    "materials_count": 4,
+    "textures_count": 12,
+    "glb_file": "models/fixture_island_a01.glb"
+  },
+  "appliance_refrigerator_twoDoor_a01": {
+    "asset_id": "appliance_refrigerator_twoDoor_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q37828",
+      "aluminum",
+      "clear_glass",
+      "plastic",
+      "refrigerator",
+      "rubber",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__steelStainless_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__blue_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 5.681,
+    "package_id": "simready.hf.nvidia.simready-assets.appliance_refrigerator_twoDoor_a01.2026.11.10_145032837722",
+    "dimensions_m": [
+      0.744,
+      1.797,
+      0.913
+    ],
+    "triangles": 54137,
+    "raw_triangles": 265582,
+    "glb_size_kb": 2533.9,
+    "materials_count": 27,
+    "textures_count": 17,
+    "glb_file": "models/appliance_refrigerator_twoDoor_a01.glb"
+  },
+  "desk_a01": {
+    "asset_id": "desk_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1064858",
+      "desk",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__rough_black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 120.565,
+    "package_id": "simready.hf.nvidia.simready-assets.desk_a01.2026.10.09_004641265661",
+    "dimensions_m": [
+      0.802,
+      0.759,
+      1.802
+    ],
+    "triangles": 37900,
+    "raw_triangles": 277118,
+    "glb_size_kb": 1437.7,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/desk_a01.glb"
+  },
+  "decor_plant_big_potted_c01": {
+    "asset_id": "decor_plant_big_potted_c01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1796822",
+      "bark",
+      "leaf_grass",
+      "plastic",
+      "pot plant",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__organic__plantBigPottedLeaf_c01",
+        "density": 400.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.1,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__organic__plantBigPottedBark_c01",
+        "density": 400.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.1,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__organic__plantBigPottedSoil_c01",
+        "density": 400.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.1,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__plantBigPottedJug_c01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 3.799,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_plant_big_potted_c01.2026.11.10_111124799917",
+    "dimensions_m": [
+      0.707,
+      1.23,
+      0.635
+    ],
+    "triangles": 51461,
+    "raw_triangles": 411803,
+    "glb_size_kb": 2876.2,
+    "materials_count": 6,
+    "textures_count": 18,
+    "glb_file": "models/decor_plant_big_potted_c01.glb"
+  },
+  "TV_a01": {
+    "asset_id": "TV_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q289",
+      "aluminum",
+      "plastic",
+      "steel",
+      "television"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_a01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_black_a05",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 35.299,
+    "package_id": "simready.hf.nvidia.simready-assets.TV_a01.2026.10.08_210106997459",
+    "dimensions_m": [
+      0.106,
+      0.755,
+      1.272
+    ],
+    "triangles": 24888,
+    "raw_triangles": 136861,
+    "glb_size_kb": 2077.9,
+    "materials_count": 10,
+    "textures_count": 26,
+    "glb_file": "models/TV_a01.glb"
+  },
+  "fixture_cabinet_d01": {
+    "asset_id": "fixture_cabinet_d01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2741056",
+      "cabinet",
+      "clear_glass",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clear_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 2.131,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_d01.2026.10.09_032348487176",
+    "dimensions_m": [
+      0.394,
+      0.764,
+      1.143
+    ],
+    "triangles": 38109,
+    "raw_triangles": 221036,
+    "glb_size_kb": 1601.8,
+    "materials_count": 14,
+    "textures_count": 9,
+    "glb_file": "models/fixture_cabinet_d01.glb"
+  },
+  "fixture_cabinet_b01": {
+    "asset_id": "fixture_cabinet_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2741056",
+      "cabinet",
+      "plastic",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__cabinet_b01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 2.698,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_b01.2026.10.09_230820079872",
+    "dimensions_m": [
+      0.679,
+      0.928,
+      0.762
+    ],
+    "triangles": 17711,
+    "raw_triangles": 74076,
+    "glb_size_kb": 1240.5,
+    "materials_count": 10,
+    "textures_count": 12,
+    "glb_file": "models/fixture_cabinet_b01.glb"
+  },
+  "fixture_cabinet_a01": {
+    "asset_id": "fixture_cabinet_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2741056",
+      "cabinet",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 2.537,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_a01.2026.10.09_032343381714",
+    "dimensions_m": [
+      0.405,
+      0.762,
+      0.764
+    ],
+    "triangles": 57900,
+    "raw_triangles": 483180,
+    "glb_size_kb": 2094.9,
+    "materials_count": 9,
+    "textures_count": 9,
+    "glb_file": "models/fixture_cabinet_a01.glb"
+  },
+  "fixture_cabinet_pantry_a01": {
+    "asset_id": "fixture_cabinet_pantry_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1306022",
+      "aluminum",
+      "kitchen cabinet",
+      "steel",
+      "stone",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__solid_dark_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__stone__whitemarquina_f01",
+        "density": 2700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.05,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_e01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      }
+    ],
+    "mass_kg": 5.222,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_pantry_a01.2026.11.11_153228635543",
+    "dimensions_m": [
+      0.682,
+      0.901,
+      1.315
+    ],
+    "triangles": 31124,
+    "raw_triangles": 179916,
+    "glb_size_kb": 1453.3,
+    "materials_count": 12,
+    "textures_count": 12,
+    "glb_file": "models/fixture_cabinet_pantry_a01.glb"
+  },
+  "fixture_cabinet_single_a01": {
+    "asset_id": "fixture_cabinet_single_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1306022",
+      "aluminum",
+      "kitchen cabinet",
+      "steel",
+      "stone",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__solid_dark_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__stone__whitemarquina_f01",
+        "density": 2700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.05,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_e01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      }
+    ],
+    "mass_kg": 13.767,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_single_a01.2026.11.11_111929037595",
+    "dimensions_m": [
+      0.682,
+      0.901,
+      0.394
+    ],
+    "triangles": 20491,
+    "raw_triangles": 108652,
+    "glb_size_kb": 1149.6,
+    "materials_count": 9,
+    "textures_count": 12,
+    "glb_file": "models/fixture_cabinet_single_a01.glb"
+  },
+  "fixture_cabinet_top_a01": {
+    "asset_id": "fixture_cabinet_top_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1306022",
+      "aluminum",
+      "kitchen cabinet",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__glossy_white_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_e01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      }
+    ],
+    "mass_kg": 10.726,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_top_a01.2026.11.11_160411418893",
+    "dimensions_m": [
+      0.446,
+      0.799,
+      0.6
+    ],
+    "triangles": 16189,
+    "raw_triangles": 88314,
+    "glb_size_kb": 864.8,
+    "materials_count": 5,
+    "textures_count": 9,
+    "glb_file": "models/fixture_cabinet_top_a01.glb"
+  },
+  "fixture_cabinet_top_a02": {
+    "asset_id": "fixture_cabinet_top_a02",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1306022",
+      "aluminum",
+      "kitchen cabinet",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__glossy_white_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_e01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      }
+    ],
+    "mass_kg": 1.301,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_cabinet_top_a02.2026.11.02_115838321943",
+    "dimensions_m": [
+      0.446,
+      0.6,
+      0.6
+    ],
+    "triangles": 15850,
+    "raw_triangles": 85570,
+    "glb_size_kb": 855.0,
+    "materials_count": 5,
+    "textures_count": 9,
+    "glb_file": "models/fixture_cabinet_top_a02.glb"
+  },
+  "furniture_highstool_a01": {
+    "asset_id": "furniture_highstool_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q33163",
+      "stool",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__furniture_highstool_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 6.306,
+    "package_id": "simready.hf.nvidia.simready-assets.furniture_highstool_a01.2026.11.06_152428782491",
+    "dimensions_m": [
+      0.334,
+      0.7,
+      0.334
+    ],
+    "triangles": 21323,
+    "raw_triangles": 106690,
+    "glb_size_kb": 796.6,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/furniture_highstool_a01.glb"
+  },
+  "furniture_counter_coffeeStation_a01": {
+    "asset_id": "furniture_counter_coffeeStation_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q5662058",
+      "clear_glass",
+      "cupboard",
+      "plastic",
+      "rubber",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_b01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__steelBrushed_glossy_b01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__walnutPanelling_a02",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.002,
+    "package_id": "simready.hf.nvidia.simready-assets.furniture_counter_coffeeStation_a01.2026.10.09_051140413358",
+    "dimensions_m": [
+      0.65,
+      2.0,
+      1.7
+    ],
+    "triangles": 37609,
+    "raw_triangles": 282012,
+    "glb_size_kb": 2313.0,
+    "materials_count": 33,
+    "textures_count": 19,
+    "glb_file": "models/furniture_counter_coffeeStation_a01.glb"
+  },
+  "appliance_dishwasher_b01": {
+    "asset_id": "appliance_dishwasher_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q186263",
+      "ceramic_glass",
+      "dishwasher",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_c01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__blue_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_gray_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__gray_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 1.659,
+    "package_id": "simready.hf.nvidia.simready-assets.appliance_dishwasher_b01.2026.11.11_163929784972",
+    "dimensions_m": [
+      0.594,
+      0.85,
+      0.599
+    ],
+    "triangles": 62650,
+    "raw_triangles": 601946,
+    "glb_size_kb": 2978.9,
+    "materials_count": 23,
+    "textures_count": 21,
+    "glb_file": "models/appliance_dishwasher_b01.glb"
+  },
+  "appliance_gasStove_table_a01": {
+    "asset_id": "appliance_gasStove_table_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1667685",
+      "gas stove",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__appliance_gasStove_table_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__appliance_gasStove_table_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.021,
+    "package_id": "simready.hf.nvidia.simready-assets.appliance_gasStove_table_a01.2026.11.13_042848436849",
+    "dimensions_m": [
+      0.49,
+      0.16,
+      0.753
+    ],
+    "triangles": 11997,
+    "raw_triangles": 77098,
+    "glb_size_kb": 814.4,
+    "materials_count": 3,
+    "textures_count": 3,
+    "glb_file": "models/appliance_gasStove_table_a01.glb"
+  },
+  "appliance_stoveHood_a01": {
+    "asset_id": "appliance_stoveHood_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1164342",
+      "clear_glass",
+      "exhaust hood",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__steel_striped_b01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 0.98,
+    "package_id": "simready.hf.nvidia.simready-assets.appliance_stoveHood_a01.2026.11.02_171245304288",
+    "dimensions_m": [
+      0.509,
+      0.071,
+      0.6
+    ],
+    "triangles": 21205,
+    "raw_triangles": 337943,
+    "glb_size_kb": 1964.4,
+    "materials_count": 18,
+    "textures_count": 19,
+    "glb_file": "models/appliance_stoveHood_a01.glb"
+  },
+  "fixture_sink_basin_b01": {
+    "asset_id": "fixture_sink_basin_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q140565",
+      "plastic",
+      "rubber",
+      "sink",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__steelStainless_clean_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__steelStainless_a01",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__rubber__glossy_black_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__scratched_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 15.215,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_sink_basin_b01.2026.11.10_113930505458",
+    "dimensions_m": [
+      0.596,
+      0.414,
+      0.8
+    ],
+    "triangles": 19233,
+    "raw_triangles": 214784,
+    "glb_size_kb": 1381.0,
+    "materials_count": 5,
+    "textures_count": 15,
+    "glb_file": "models/fixture_sink_basin_b01.glb"
+  },
+  "fixture_faucet_stainless_a01": {
+    "asset_id": "fixture_faucet_stainless_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q656656",
+      "plastic",
+      "rubber",
+      "steel",
+      "tap"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__rubber__new_black_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__blue_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.301,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_faucet_stainless_a01.2026.11.10_123025944151",
+    "dimensions_m": [
+      0.308,
+      0.25,
+      0.051
+    ],
+    "triangles": 10806,
+    "raw_triangles": 33294,
+    "glb_size_kb": 1237.8,
+    "materials_count": 7,
+    "textures_count": 15,
+    "glb_file": "models/fixture_faucet_stainless_a01.glb"
+  },
+  "chair_office_fabric_manager_a01": {
+    "asset_id": "chair_office_fabric_manager_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1021686",
+      "fabric",
+      "office chair",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__grainy_standard_a",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__metal__chrome_standard_tube_a",
+        "density": 7800.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_opaque__fabric__polyester_gray_glossy_standard_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__metal__painted_black_mechanism_a",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.025,
+    "package_id": "simready.hf.nvidia.simready-assets.chair_office_fabric_manager_a01.2026.10.08_232239280087",
+    "dimensions_m": [
+      0.622,
+      1.091,
+      0.706
+    ],
+    "triangles": 19409,
+    "raw_triangles": 91432,
+    "glb_size_kb": 1934.4,
+    "materials_count": 18,
+    "textures_count": 13,
+    "glb_file": "models/chair_office_fabric_manager_a01.glb"
+  },
+  "chair_office_amf_black_a01": {
+    "asset_id": "chair_office_amf_black_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1021686",
+      "fabric",
+      "office chair",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__metal__painted_black_a",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_opaque__plastic__rough_black_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__fabric__black_a",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__plastic__grainy_black_a",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 7.449,
+    "package_id": "simready.hf.nvidia.simready-assets.chair_office_amf_black_a01.2026.10.09_203814173080",
+    "dimensions_m": [
+      0.54,
+      0.81,
+      0.572
+    ],
+    "triangles": 11997,
+    "raw_triangles": 32253,
+    "glb_size_kb": 1531.9,
+    "materials_count": 4,
+    "textures_count": 8,
+    "glb_file": "models/chair_office_amf_black_a01.glb"
+  },
+  "storage_shelf_basic_a01": {
+    "asset_id": "storage_shelf_basic_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q45242859",
+      "shelf",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__black_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 3010.833,
+    "package_id": "simready.hf.nvidia.simready-assets.storage_shelf_basic_a01.2026.10.09_171950089564",
+    "dimensions_m": [
+      1.267,
+      2.423,
+      2.494
+    ],
+    "triangles": 295699,
+    "raw_triangles": 1326754,
+    "glb_size_kb": 8417.6,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/storage_shelf_basic_a01.glb"
+  },
+  "toilet_a01": {
+    "asset_id": "toilet_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q7857",
+      "ceramic_glass",
+      "clear_glass",
+      "plastic",
+      "toilet"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__ceramic__white_glossy_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__emissive_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 1.366,
+    "package_id": "simready.hf.nvidia.simready-assets.toilet_a01.2026.10.09_181400690176",
+    "dimensions_m": [
+      0.706,
+      1.038,
+      0.405
+    ],
+    "triangles": 17455,
+    "raw_triangles": 186043,
+    "glb_size_kb": 1337.7,
+    "materials_count": 6,
+    "textures_count": 12,
+    "glb_file": "models/toilet_a01.glb"
+  },
+  "washBasin_a01": {
+    "asset_id": "washBasin_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q140565",
+      "glass",
+      "marble",
+      "sink",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__ceramic__smoothGlossy_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_trans__glass__blackClean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 15.462,
+    "package_id": "simready.hf.nvidia.simready-assets.washBasin_a01.2026.10.10_190711015736",
+    "dimensions_m": [
+      0.35,
+      0.461,
+      0.576
+    ],
+    "triangles": 10112,
+    "raw_triangles": 22602,
+    "glb_size_kb": 712.5,
+    "materials_count": 4,
+    "textures_count": 9,
+    "glb_file": "models/washBasin_a01.glb"
+  },
+  "fauset_bathroom_a01": {
+    "asset_id": "fauset_bathroom_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q656656",
+      "plastic",
+      "rubber",
+      "steel",
+      "tap"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__grey_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__rubber__rough_black_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__steelMate_gray_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 0.388,
+    "package_id": "simready.hf.nvidia.simready-assets.fauset_bathroom_a01.2026.10.09_031703246730",
+    "dimensions_m": [
+      0.16,
+      0.231,
+      0.045
+    ],
+    "triangles": 10782,
+    "raw_triangles": 81952,
+    "glb_size_kb": 1302.8,
+    "materials_count": 8,
+    "textures_count": 16,
+    "glb_file": "models/fauset_bathroom_a01.glb"
+  },
+  "mirror_bathroom_a01": {
+    "asset_id": "mirror_bathroom_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q35197",
+      "mirror",
+      "plastic",
+      "rubber",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__glass__mirror_clean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_white_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__rubber__white_smooth_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 14.185,
+    "package_id": "simready.hf.nvidia.simready-assets.mirror_bathroom_a01.2026.10.09_065458130249",
+    "dimensions_m": [
+      0.036,
+      0.5,
+      0.8
+    ],
+    "triangles": 11445,
+    "raw_triangles": 54722,
+    "glb_size_kb": 1676.4,
+    "materials_count": 8,
+    "textures_count": 17,
+    "glb_file": "models/mirror_bathroom_a01.glb"
+  },
+  "decor_mirror_a01": {
+    "asset_id": "decor_mirror_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q35197",
+      "aluminum",
+      "mirror"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__painted_gray_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__glass__glossy_mirror_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 69.932,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_mirror_a01.2026.11.09_130121168139",
+    "dimensions_m": [
+      0.039,
+      1.02,
+      0.74
+    ],
+    "triangles": 4126,
+    "raw_triangles": 6720,
+    "glb_size_kb": 254.5,
+    "materials_count": 2,
+    "textures_count": 2,
+    "glb_file": "models/decor_mirror_a01.glb"
+  },
+  "decor_guitar_a01": {
+    "asset_id": "decor_guitar_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q6607",
+      "guitar",
+      "paper",
+      "plastic",
+      "rubber",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__miscGuitar_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__miscGuitar_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__miscGuitar_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__paper__miscGuitar_a01",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 10.865,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_guitar_a01.2026.11.11_131942306649",
+    "dimensions_m": [
+      0.288,
+      1.138,
+      0.399
+    ],
+    "triangles": 16158,
+    "raw_triangles": 148132,
+    "glb_size_kb": 1668.6,
+    "materials_count": 9,
+    "textures_count": 17,
+    "glb_file": "models/decor_guitar_a01.glb"
+  },
+  "decor_painting_a01": {
+    "asset_id": "decor_painting_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q3305213",
+      "clear_glass",
+      "painting",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__black_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__black_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_trans__glass__glossy_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 6.309,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_painting_a01.2026.11.12_015244139897",
+    "dimensions_m": [
+      0.026,
+      0.492,
+      0.592
+    ],
+    "triangles": 6428,
+    "raw_triangles": 18180,
+    "glb_size_kb": 761.3,
+    "materials_count": 3,
+    "textures_count": 3,
+    "glb_file": "models/decor_painting_a01.glb"
+  },
+  "blinds_window_4m_open_a01": {
+    "asset_id": "blinds_window_4m_open_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q321046",
+      "fabric",
+      "plastic",
+      "steel",
+      "window blind"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeScratched_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__tweed_herringbone_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 95.456,
+    "package_id": "simready.hf.nvidia.simready-assets.blinds_window_4m_open_a01.2026.10.08_221419411016",
+    "dimensions_m": [
+      0.056,
+      2.567,
+      3.999
+    ],
+    "triangles": 76668,
+    "raw_triangles": 289684,
+    "glb_size_kb": 2616.4,
+    "materials_count": 4,
+    "textures_count": 12,
+    "glb_file": "models/blinds_window_4m_open_a01.glb"
+  },
+  "blinds_window_2m_open_a01": {
+    "asset_id": "blinds_window_2m_open_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q321046",
+      "fabric",
+      "plastic",
+      "steel",
+      "window blind"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeScratched_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__tweed_herringbone_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 45.124,
+    "package_id": "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543",
+    "dimensions_m": [
+      0.056,
+      2.567,
+      1.892
+    ],
+    "triangles": 51276,
+    "raw_triangles": 169332,
+    "glb_size_kb": 2052.1,
+    "materials_count": 4,
+    "textures_count": 12,
+    "glb_file": "models/blinds_window_2m_open_a01.glb"
+  },
+  "storage_bin_bamboo_a01": {
+    "asset_id": "storage_bin_bamboo_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q111366670",
+      "fabric",
+      "steel",
+      "storage bin",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__butcherblock_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeStains_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chromeClean_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__cotton_canvas_gray_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 4.0,
+    "package_id": "simready.hf.nvidia.simready-assets.storage_bin_bamboo_a01.2026.11.10_153017098228",
+    "dimensions_m": [
+      0.35,
+      0.914,
+      0.45
+    ],
+    "triangles": 44510,
+    "raw_triangles": 552120,
+    "glb_size_kb": 1845.5,
+    "materials_count": 6,
+    "textures_count": 12,
+    "glb_file": "models/storage_bin_bamboo_a01.glb"
+  },
+  "bin_waste_a01": {
+    "asset_id": "bin_waste_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q216530",
+      "plastic",
+      "steel",
+      "waste container"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_white_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__glossy_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_red_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 8.271,
+    "package_id": "simready.hf.nvidia.simready-assets.bin_waste_a01.2026.10.10_004650961533",
+    "dimensions_m": [
+      0.238,
+      0.28,
+      0.18
+    ],
+    "triangles": 13345,
+    "raw_triangles": 44723,
+    "glb_size_kb": 816.8,
+    "materials_count": 8,
+    "textures_count": 9,
+    "glb_file": "models/bin_waste_a01.glb"
+  },
+  "misc_speaker_a01": {
+    "asset_id": "misc_speaker_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q26884850",
+      "paper",
+      "plastic",
+      "rubber",
+      "smart speaker",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__grainy_black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__miscSpeakers_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_gray_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.001,
+    "package_id": "simready.hf.nvidia.simready-assets.misc_speaker_a01.2026.11.11_182135810387",
+    "dimensions_m": [
+      0.656,
+      0.44,
+      0.754
+    ],
+    "triangles": 90414,
+    "raw_triangles": 594391,
+    "glb_size_kb": 2891.1,
+    "materials_count": 8,
+    "textures_count": 20,
+    "glb_file": "models/misc_speaker_a01.glb"
+  },
+  "decor_wallClock_a01": {
+    "asset_id": "decor_wallClock_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q18991396",
+      "aluminum",
+      "plastic",
+      "wall clock"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__black_c01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_trans__plastic__clean_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__wallClock_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.002,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_wallClock_a01.2026.11.09_170131621819",
+    "dimensions_m": [
+      0.036,
+      0.27,
+      0.27
+    ],
+    "triangles": 8879,
+    "raw_triangles": 28595,
+    "glb_size_kb": 617.2,
+    "materials_count": 8,
+    "textures_count": 12,
+    "glb_file": "models/decor_wallClock_a01.glb"
+  },
+  "decor_candleholder_a01": {
+    "asset_id": "decor_candleholder_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q111324670",
+      "candleholder",
+      "clear_glass",
+      "fabric",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__typical_misc_candleholder_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__typical_misc_candleholder_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__typical_misc_candleholder_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 2.86,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_candleholder_a01.2026.11.06_113018482690",
+    "dimensions_m": [
+      0.15,
+      0.164,
+      0.15
+    ],
+    "triangles": 11522,
+    "raw_triangles": 114022,
+    "glb_size_kb": 514.7,
+    "materials_count": 4,
+    "textures_count": 3,
+    "glb_file": "models/decor_candleholder_a01.glb"
+  },
+  "magazines_stack_a01": {
+    "asset_id": "magazines_stack_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q41298",
+      "magazine",
+      "paper"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__paper__magazines_stack_a01",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.355,
+    "package_id": "simready.hf.nvidia.simready-assets.magazines_stack_a01.2026.10.09_064641198031",
+    "dimensions_m": [
+      0.211,
+      0.055,
+      0.256
+    ],
+    "triangles": 79027,
+    "raw_triangles": 105794,
+    "glb_size_kb": 1804.6,
+    "materials_count": 1,
+    "textures_count": 0,
+    "glb_file": "models/magazines_stack_a01.glb"
+  },
+  "appliance_toaster_a01": {
+    "asset_id": "appliance_toaster_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q14890",
+      "aluminum",
+      "plastic",
+      "toaster",
+      "wikidata_qcode"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__toaster_v01_01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__toaster_v01_01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      }
+    ],
+    "mass_kg": 0.015,
+    "package_id": "simready.hf.nvidia.simready-assets.appliance_toaster_a01.2026.10.13_180535304265",
+    "dimensions_m": [
+      0.307,
+      0.179,
+      0.155
+    ],
+    "triangles": 8427,
+    "raw_triangles": 38594,
+    "glb_size_kb": 580.8,
+    "materials_count": 6,
+    "textures_count": 3,
+    "glb_file": "models/appliance_toaster_a01.glb"
+  },
+  "cookware_pan_copper_b02": {
+    "asset_id": "cookware_pan_copper_b02",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q127666",
+      "brass",
+      "bronze",
+      "frying pan"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__brass_pan_copper_b02",
+        "density": 8500.0,
+        "dynamicFriction": 0.44,
+        "restitution": 0.2,
+        "staticFriction": 0.51
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__pan_copper_b02",
+        "density": 8960.0,
+        "dynamicFriction": 0.36,
+        "restitution": 0.15,
+        "staticFriction": 0.53
+      }
+    ],
+    "mass_kg": 11.822,
+    "package_id": "simready.hf.nvidia.simready-assets.cookware_pan_copper_b02.2026.11.12_094132817315",
+    "dimensions_m": [
+      0.198,
+      0.034,
+      0.397
+    ],
+    "triangles": 5998,
+    "raw_triangles": 34812,
+    "glb_size_kb": 409.4,
+    "materials_count": 2,
+    "textures_count": 3,
+    "glb_file": "models/cookware_pan_copper_b02.glb"
+  },
+  "cookware_pot_copper_d01": {
+    "asset_id": "cookware_pot_copper_d01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2366864",
+      "brass",
+      "bronze",
+      "cooking pot"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__pot_copper_d01",
+        "density": 8960.0,
+        "dynamicFriction": 0.36,
+        "restitution": 0.15,
+        "staticFriction": 0.53
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__brass_pot_copper_d01",
+        "density": 8500.0,
+        "dynamicFriction": 0.44,
+        "restitution": 0.2,
+        "staticFriction": 0.51
+      }
+    ],
+    "mass_kg": 8.912,
+    "package_id": "simready.hf.nvidia.simready-assets.cookware_pot_copper_d01.2026.11.12_124343213402",
+    "dimensions_m": [
+      0.264,
+      0.196,
+      0.341
+    ],
+    "triangles": 11380,
+    "raw_triangles": 160472,
+    "glb_size_kb": 568.7,
+    "materials_count": 4,
+    "textures_count": 3,
+    "glb_file": "models/cookware_pot_copper_d01.glb"
+  },
+  "utensil_cuttingBoard_wooden_a01": {
+    "asset_id": "utensil_cuttingBoard_wooden_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q617239",
+      "cutting board",
+      "fabric",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wood__utensil_cuttingboard_wooden_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__utensil_cuttingboard_wooden_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 1.738,
+    "package_id": "simready.hf.nvidia.simready-assets.utensil_cuttingBoard_wooden_a01.2026.11.12_010111361287",
+    "dimensions_m": [
+      0.445,
+      0.026,
+      0.247
+    ],
+    "triangles": 3336,
+    "raw_triangles": 16218,
+    "glb_size_kb": 269.3,
+    "materials_count": 2,
+    "textures_count": 3,
+    "glb_file": "models/utensil_cuttingBoard_wooden_a01.glb"
+  },
+  "utensil_knife_set_a01": {
+    "asset_id": "utensil_knife_set_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q32489",
+      "knife",
+      "rubber",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__utensil_knife_set_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__utensil_knife_set_a01",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__rubber__utensil_knife_set_a01",
+        "density": 1200.0,
+        "dynamicFriction": 0.8,
+        "restitution": 0.8,
+        "staticFriction": 0.8
+      }
+    ],
+    "mass_kg": 0.883,
+    "package_id": "simready.hf.nvidia.simready-assets.utensil_knife_set_a01.2026.11.04_102926129587",
+    "dimensions_m": [
+      0.168,
+      0.394,
+      0.254
+    ],
+    "triangles": 17176,
+    "raw_triangles": 85646,
+    "glb_size_kb": 782.1,
+    "materials_count": 16,
+    "textures_count": 3,
+    "glb_file": "models/utensil_knife_set_a01.glb"
+  },
+  "grocery_bakery_croissant_a01": {
+    "asset_id": "grocery_bakery_croissant_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q207832",
+      "croissant",
+      "leaf_grass"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__organic__croissant_a01",
+        "density": 400.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.1,
+        "staticFriction": 0.55
+      }
+    ],
+    "mass_kg": 0.076,
+    "package_id": "simready.hf.nvidia.simready-assets.grocery_bakery_croissant_a01.2026.11.04_050141431857",
+    "dimensions_m": [
+      0.16,
+      0.043,
+      0.067
+    ],
+    "triangles": 4000,
+    "raw_triangles": 58816,
+    "glb_size_kb": 470.8,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/grocery_bakery_croissant_a01.glb"
+  },
+  "food_banana_a01": {
+    "asset_id": "food_banana_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q503",
+      "banana",
+      "rubber"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plant__banana_clean_a01",
+        "density": 525.0,
+        "dynamicFriction": 0.6,
+        "restitution": 0.2,
+        "staticFriction": 0.65
+      }
+    ],
+    "mass_kg": 0.273,
+    "package_id": "simready.hf.nvidia.simready-assets.food_banana_a01.2026.10.28_145834909114",
+    "dimensions_m": [
+      0.039,
+      0.074,
+      0.197
+    ],
+    "triangles": 3000,
+    "raw_triangles": 16384,
+    "glb_size_kb": 130.2,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/food_banana_a01.glb"
+  },
+  "dishware_plate_a01": {
+    "asset_id": "dishware_plate_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q57216",
+      "ceramic_glass",
+      "plate"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__ceramic__plate_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      }
+    ],
+    "mass_kg": 0.904,
+    "package_id": "simready.hf.nvidia.simready-assets.dishware_plate_a01.2026.11.12_065142174474",
+    "dimensions_m": [
+      0.267,
+      0.02,
+      0.267
+    ],
+    "triangles": 3000,
+    "raw_triangles": 17280,
+    "glb_size_kb": 184.1,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/dishware_plate_a01.glb"
+  },
+  "dishware_bowl_a01": {
+    "asset_id": "dishware_bowl_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q153988",
+      "bowl",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__dishBowl_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 1.0,
+    "package_id": "simready.hf.nvidia.simready-assets.dishware_bowl_a01.2026.10.27_030534809503",
+    "dimensions_m": [
+      0.163,
+      0.055,
+      0.163
+    ],
+    "triangles": 3000,
+    "raw_triangles": 11008,
+    "glb_size_kb": 240.9,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/dishware_bowl_a01.glb"
+  },
+  "dishware_mug_coffee_a01": {
+    "asset_id": "dishware_mug_coffee_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q38110559",
+      "ceramic_glass",
+      "coffee mug"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__ceramic__mug\u0421offee_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      }
+    ],
+    "mass_kg": 1.501,
+    "package_id": "simready.hf.nvidia.simready-assets.dishware_mug_coffee_a01.2026.10.09_005715571964",
+    "dimensions_m": [
+      0.121,
+      0.097,
+      0.081
+    ],
+    "triangles": 4000,
+    "raw_triangles": 11766,
+    "glb_size_kb": 219.3,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/dishware_mug_coffee_a01.glb"
+  },
+  "dishware_glass_wineRed_b01": {
+    "asset_id": "dishware_glass_wineRed_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q65621611",
+      "clear_glass",
+      "red wine glass"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clear_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.67,
+    "package_id": "simready.hf.nvidia.simready-assets.dishware_glass_wineRed_b01.2026.11.06_093444267358",
+    "dimensions_m": [
+      0.073,
+      0.193,
+      0.073
+    ],
+    "triangles": 4000,
+    "raw_triangles": 9856,
+    "glb_size_kb": 101.0,
+    "materials_count": 1,
+    "textures_count": 0,
+    "glb_file": "models/dishware_glass_wineRed_b01.glb"
+  },
+  "computer_monitor_office_a01": {
+    "asset_id": "computer_monitor_office_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q5290",
+      "computer monitor",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__glossy_black_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__plastic__black_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__plastic__unique_decal_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__metal__glossy_a",
+        "density": 8000.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 1.095,
+    "package_id": "simready.hf.nvidia.simready-assets.computer_monitor_office_a01.2026.10.09_203830439655",
+    "dimensions_m": [
+      0.542,
+      0.394,
+      0.172
+    ],
+    "triangles": 7779,
+    "raw_triangles": 10867,
+    "glb_size_kb": 917.4,
+    "materials_count": 6,
+    "textures_count": 14,
+    "glb_file": "models/computer_monitor_office_a01.glb"
+  },
+  "computer_keyboard_a01": {
+    "asset_id": "computer_keyboard_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q250",
+      "computer keyboard",
+      "plastic"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__unique_keyboard_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.556,
+    "package_id": "simready.hf.nvidia.simready-assets.computer_keyboard_a01.2026.10.09_203825228362",
+    "dimensions_m": [
+      0.442,
+      0.02,
+      0.142
+    ],
+    "triangles": 6000,
+    "raw_triangles": 27378,
+    "glb_size_kb": 219.9,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/computer_keyboard_a01.glb"
+  },
+  "computer_mouse_office_b01": {
+    "asset_id": "computer_mouse_office_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q7987",
+      "clear_glass",
+      "computer mouse",
+      "fabric",
+      "plastic",
+      "rubber"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__glossy_black_a",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__plastic__glossy_grey_a",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_opaque__plastic__glossy_blue_a",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_trans__glass__grey_a",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.0,
+    "package_id": "simready.hf.nvidia.simready-assets.computer_mouse_office_b01.2026.10.08_233725687549",
+    "dimensions_m": [
+      0.254,
+      0.041,
+      0.191
+    ],
+    "triangles": 9297,
+    "raw_triangles": 25858,
+    "glb_size_kb": 629.4,
+    "materials_count": 13,
+    "textures_count": 8,
+    "glb_file": "models/computer_mouse_office_b01.glb"
+  },
+  "computer_desktop_tower_a01": {
+    "asset_id": "computer_desktop_tower_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q3495720",
+      "computer system unit",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__yellow_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__plastic__red_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__plastic__gray_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_opaque__metal__painted_black_a",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 35.304,
+    "package_id": "simready.hf.nvidia.simready-assets.computer_desktop_tower_a01.2026.10.09_203820874063",
+    "dimensions_m": [
+      0.197,
+      0.49,
+      0.624
+    ],
+    "triangles": 17766,
+    "raw_triangles": 85502,
+    "glb_size_kb": 2000.3,
+    "materials_count": 14,
+    "textures_count": 32,
+    "glb_file": "models/computer_desktop_tower_a01.glb"
+  },
+  "misc_headphones_a01": {
+    "asset_id": "misc_headphones_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q186819",
+      "fabric",
+      "headphone",
+      "leather",
+      "paper"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__miscHeadphones_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__leather__miscHeadphones_a01",
+        "density": 860.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.25,
+        "staticFriction": 0.55
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__miscHeadphones_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.189,
+    "package_id": "simready.hf.nvidia.simready-assets.misc_headphones_a01.2026.11.11_144243037242",
+    "dimensions_m": [
+      0.192,
+      0.082,
+      0.191
+    ],
+    "triangles": 38759,
+    "raw_triangles": 489828,
+    "glb_size_kb": 1067.2,
+    "materials_count": 3,
+    "textures_count": 3,
+    "glb_file": "models/misc_headphones_a01.glb"
+  },
+  "trashCan_office_black_a03": {
+    "asset_id": "trashCan_office_black_a03",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q216530",
+      "plastic",
+      "waste container"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_opaque__plastic__glossy_black_a",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.35,
+    "package_id": "simready.hf.nvidia.simready-assets.trashCan_office_black_a03.2026.10.09_181644006457",
+    "dimensions_m": [
+      0.4,
+      0.5,
+      0.3
+    ],
+    "triangles": 3034,
+    "raw_triangles": 15424,
+    "glb_size_kb": 161.2,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/trashCan_office_black_a03.glb"
+  },
+  "lamp_table_bedside_a01": {
+    "asset_id": "lamp_table_bedside_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1138737",
+      "lamp",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__paintedRough_white_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_gray_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__chrome_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      }
+    ],
+    "mass_kg": 0.1,
+    "package_id": "simready.hf.nvidia.simready-assets.lamp_table_bedside_a01.2026.10.09_063506686113",
+    "dimensions_m": [
+      0.198,
+      0.372,
+      0.199
+    ],
+    "triangles": 23088,
+    "raw_triangles": 49166,
+    "glb_size_kb": 951.7,
+    "materials_count": 6,
+    "textures_count": 14,
+    "glb_file": "models/lamp_table_bedside_a01.glb"
+  },
+  "decor_photoFrame_a01": {
+    "asset_id": "decor_photoFrame_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q11332840",
+      "clear_glass",
+      "paper",
+      "photo frame",
+      "plastic",
+      "steel",
+      "wood"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__clean_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__wood__paintClean_a02",
+        "density": 700.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.4,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__painted_gray_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.15,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__scratched_white_b01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 1.493,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_photoFrame_a01.2026.11.10_142117409001",
+    "dimensions_m": [
+      0.097,
+      0.191,
+      0.151
+    ],
+    "triangles": 5408,
+    "raw_triangles": 12628,
+    "glb_size_kb": 506.4,
+    "materials_count": 5,
+    "textures_count": 8,
+    "glb_file": "models/decor_photoFrame_a01.glb"
+  },
+  "decor_book_b02": {
+    "asset_id": "decor_book_b02",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q571",
+      "book",
+      "paper"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__paper__book_b02",
+        "density": 689.0,
+        "dynamicFriction": 0.7,
+        "restitution": 0.4,
+        "staticFriction": 0.7
+      }
+    ],
+    "mass_kg": 0.154,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_book_b02.2026.11.11_083743025375",
+    "dimensions_m": [
+      0.243,
+      0.023,
+      0.187
+    ],
+    "triangles": 3000,
+    "raw_triangles": 5848,
+    "glb_size_kb": 187.8,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/decor_book_b02.glb"
+  },
+  "book_open_a01": {
+    "asset_id": "book_open_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q571",
+      "book",
+      "cardboard",
+      "fabric",
+      "paper"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__fabric__book_open_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__cardboard__book_open_a01",
+        "density": 689.0,
+        "dynamicFriction": 0.7,
+        "restitution": 0.4,
+        "staticFriction": 0.7
+      },
+      {
+        "name": "physics_mat_m_opaque__paper__book_open_a01",
+        "density": 900.0,
+        "dynamicFriction": 0.45,
+        "restitution": 0.12,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.248,
+    "package_id": "simready.hf.nvidia.simready-assets.book_open_a01.2026.10.08_223618615815",
+    "dimensions_m": [
+      0.207,
+      0.037,
+      0.32
+    ],
+    "triangles": 11003,
+    "raw_triangles": 29010,
+    "glb_size_kb": 281.9,
+    "materials_count": 3,
+    "textures_count": 0,
+    "glb_file": "models/book_open_a01.glb"
+  },
+  "decor_candle_a01": {
+    "asset_id": "decor_candle_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q12888135",
+      "candle",
+      "fabric",
+      "mud"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__wax__candle_a01",
+        "density": 1800.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.05,
+        "staticFriction": 0.6
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__candle_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 1.072,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_candle_a01.2026.10.09_003120764932",
+    "dimensions_m": [
+      0.074,
+      0.075,
+      0.074
+    ],
+    "triangles": 2998,
+    "raw_triangles": 9804,
+    "glb_size_kb": 212.6,
+    "materials_count": 2,
+    "textures_count": 3,
+    "glb_file": "models/decor_candle_a01.glb"
+  },
+  "humidifier_a01": {
+    "asset_id": "humidifier_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1073283",
+      "clear_glass",
+      "humidifier",
+      "plastic",
+      "steel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__satin_a01",
+        "density": 7850.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__white_a01",
+        "density": 950.0,
+        "dynamicFriction": 1.0,
+        "restitution": 0.4,
+        "staticFriction": 1.0
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__black_glossy_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 2.0,
+    "package_id": "simready.hf.nvidia.simready-assets.humidifier_a01.2026.10.10_005708791089",
+    "dimensions_m": [
+      0.315,
+      0.96,
+      0.319
+    ],
+    "triangles": 24082,
+    "raw_triangles": 143608,
+    "glb_size_kb": 1031.8,
+    "materials_count": 6,
+    "textures_count": 10,
+    "glb_file": "models/humidifier_a01.glb"
+  },
+  "fixture_toiletPaperHolder_double_a01": {
+    "asset_id": "fixture_toiletPaperHolder_double_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q2916012",
+      "plastic",
+      "steel",
+      "toilet roll holder"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__metal__brushedAniso_clean_a01",
+        "density": 7800.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.1,
+        "staticFriction": 0.3
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 13.213,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_toiletPaperHolder_double_a01.2026.10.09_033049914806",
+    "dimensions_m": [
+      0.151,
+      0.1,
+      0.452
+    ],
+    "triangles": 5984,
+    "raw_triangles": 22138,
+    "glb_size_kb": 312.2,
+    "materials_count": 2,
+    "textures_count": 6,
+    "glb_file": "models/fixture_toiletPaperHolder_double_a01.glb"
+  },
+  "cleaning_soapDispenser_a01": {
+    "asset_id": "cleaning_soapDispenser_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q377647",
+      "clear_glass",
+      "plastic",
+      "soap dispenser",
+      "water"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_trans__glass__cleaning_soapDispenser_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_trans__plastic__cleaning_soapDispenser_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_trans__glass__clean_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.0,
+        "restitution": 0.0,
+        "staticFriction": 0.0
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__cleaning_soapDispenser_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.015,
+    "package_id": "simready.hf.nvidia.simready-assets.cleaning_soapDispenser_a01.2026.10.09_230130152728",
+    "dimensions_m": [
+      0.075,
+      0.182,
+      0.07
+    ],
+    "triangles": 9538,
+    "raw_triangles": 82342,
+    "glb_size_kb": 423.4,
+    "materials_count": 5,
+    "textures_count": 3,
+    "glb_file": "models/cleaning_soapDispenser_a01.glb"
+  },
+  "cleaning_towel_folded_a01": {
+    "asset_id": "cleaning_towel_folded_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q131696",
+      "fabric",
+      "towel"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__fabric__edges_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      },
+      {
+        "name": "physics_mat_m_opaque__fabric__towelfur_a01",
+        "density": 1000.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.3,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.565,
+    "package_id": "simready.hf.nvidia.simready-assets.cleaning_towel_folded_a01.2026.11.04_170911081846",
+    "dimensions_m": [
+      0.265,
+      0.058,
+      0.176
+    ],
+    "triangles": 7794,
+    "raw_triangles": 101920,
+    "glb_size_kb": 597.8,
+    "materials_count": 2,
+    "textures_count": 6,
+    "glb_file": "models/cleaning_towel_folded_a01.glb"
+  },
+  "fixture_ceilinglamp_a01": {
+    "asset_id": "fixture_ceilinglamp_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1138737",
+      "clear_glass",
+      "lamp",
+      "plastic"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__ceilinglamp_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__cap_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_trans__glass__ceilinglamp_a01",
+        "density": 2500.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.05,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.608,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187",
+    "dimensions_m": [
+      0.374,
+      0.039,
+      0.374
+    ],
+    "triangles": 20333,
+    "raw_triangles": 109418,
+    "glb_size_kb": 845.9,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/fixture_ceilinglamp_a01.glb"
+  },
+  "fixture_ceilinglamp_b01": {
+    "asset_id": "fixture_ceilinglamp_b01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q1138737",
+      "lamp",
+      "plastic"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__ceilinglamp_b01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__plastic__emissive_ceilinglamp_b01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.258,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_b01.2026.11.05_151122357943",
+    "dimensions_m": [
+      0.199,
+      0.009,
+      0.199
+    ],
+    "triangles": 4998,
+    "raw_triangles": 6720,
+    "glb_size_kb": 356.3,
+    "materials_count": 2,
+    "textures_count": 7,
+    "glb_file": "models/fixture_ceilinglamp_b01.glb"
+  },
+  "fixture_switch_a01": {
+    "asset_id": "fixture_switch_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q5320",
+      "electrical switch",
+      "plastic"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__switch_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.122,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_switch_a01.2026.11.09_133753152443",
+    "dimensions_m": [
+      0.032,
+      0.083,
+      0.12
+    ],
+    "triangles": 3768,
+    "raw_triangles": 18548,
+    "glb_size_kb": 237.0,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/fixture_switch_a01.glb"
+  },
+  "fixture_socket_a01": {
+    "asset_id": "fixture_socket_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q116970958",
+      "aluminum",
+      "bronze",
+      "plastic",
+      "power outlets & socket"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__plastic__glossy_white_a01",
+        "density": 950.0,
+        "dynamicFriction": 0.4,
+        "restitution": 0.4,
+        "staticFriction": 0.4
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__aluminiumBrushed_d01",
+        "density": 2700.0,
+        "dynamicFriction": 0.47,
+        "restitution": 0.1,
+        "staticFriction": 0.61
+      },
+      {
+        "name": "physics_mat_m_opaque__metal__bronzePolished_a01",
+        "density": 8800.0,
+        "dynamicFriction": 0.35,
+        "restitution": 0.15,
+        "staticFriction": 0.4
+      }
+    ],
+    "mass_kg": 0.093,
+    "package_id": "simready.hf.nvidia.simready-assets.fixture_socket_a01.2026.11.09_162643726054",
+    "dimensions_m": [
+      0.015,
+      0.089,
+      0.089
+    ],
+    "triangles": 3924,
+    "raw_triangles": 22174,
+    "glb_size_kb": 275.0,
+    "materials_count": 3,
+    "textures_count": 9,
+    "glb_file": "models/fixture_socket_a01.glb"
+  },
+  "decor_vase_a01": {
+    "asset_id": "decor_vase_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q191851",
+      "ceramic_glass",
+      "vase"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__glass__miscVase_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      }
+    ],
+    "mass_kg": 4.828,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_vase_a01.2026.11.05_161939194382",
+    "dimensions_m": [
+      0.125,
+      0.25,
+      0.125
+    ],
+    "triangles": 4000,
+    "raw_triangles": 17152,
+    "glb_size_kb": 147.0,
+    "materials_count": 1,
+    "textures_count": 3,
+    "glb_file": "models/decor_vase_a01.glb"
+  },
+  "decor_plant_dried_vase_a01": {
+    "asset_id": "decor_plant_dried_vase_a01",
+    "license": "CC-BY-4.0",
+    "asset_type": "prop",
+    "validation_profile": "Robotics-Prop",
+    "semantic_labels": [
+      "Q191851",
+      "ceramic_glass",
+      "dead_leaf_grass",
+      "vase"
+    ],
+    "physics_materials": [
+      {
+        "name": "physics_mat_m_opaque__ceramic__glossy_white_a01",
+        "density": 2600.0,
+        "dynamicFriction": 0.3,
+        "restitution": 0.05,
+        "staticFriction": 0.35
+      },
+      {
+        "name": "physics_mat_m_opaque__organic__plant_a01",
+        "density": 100.0,
+        "dynamicFriction": 0.5,
+        "restitution": 0.2,
+        "staticFriction": 0.5
+      }
+    ],
+    "mass_kg": 0.5,
+    "package_id": "simready.hf.nvidia.simready-assets.decor_plant_dried_vase_a01.2026.11.12_051609242554",
+    "dimensions_m": [
+      0.551,
+      0.684,
+      0.539
+    ],
+    "triangles": 41255,
+    "raw_triangles": 157639,
+    "glb_size_kb": 2138.9,
+    "materials_count": 2,
+    "textures_count": 6,
+    "glb_file": "models/decor_plant_dried_vase_a01.glb"
+  }
+}

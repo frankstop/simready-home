@@ -1,0 +1,18 @@
+# Local Python & Node environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Vite build output (built & deployed by GitHub Actions)
+dist/
+
+# Temporary USD download / conversion caches
+simready_usd_cache/
+tmp_thumbs/
+tmp_test/
+
+# OS & editor files
+.DS_Store
+*.log

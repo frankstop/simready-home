@@ -1,0 +1,7 @@
+usd-core>=26.11
+huggingface-hub>=2.4.0
+numpy>=2.0.0
+pillow>=11.0.0
+pygltflib>=1.16.5
+trimesh>=4.5.0
+fast-simplification>=0.2.0

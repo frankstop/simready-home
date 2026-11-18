@@ -1,0 +1,3281 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "World"
+{
+    def Scope "Architecture"
+    {
+        def Cube "MainFloorSlab"
+        {
+            double size = 1
+            float3 xformOp:scale = (14.2, 0.14, 10.2)
+            double3 xformOp:translate = (0, -0.07, 0)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+        }
+    }
+
+    def Scope "SimReadyFurnishings"
+    {
+        def Xform "Item_000_textileDecor_doormat_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "textileDecor_doormat_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Woven Entry Doormat"
+                    double mass_kg = 1.04
+                    string package_id = "simready.hf.nvidia.simready-assets.textileDecor_doormat_a01.2026.11.12_080210638266"
+                    string room = "Entry Foyer"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            double3 xformOp:translate = (-0.02, 0.002, 4.46)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (1.074, 0.017, 0.776)
+                double3 xformOp:translate = (0, 0.0085, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_001_decor_mirror_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_mirror_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Entryway Wall Mirror"
+                    double mass_kg = 69.932
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_mirror_a01.2026.11.09_130121168139"
+                    string room = "Entry Foyer"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (0.78, 1.38, 3.85)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.039, 1.02, 0.74)
+                double3 xformOp:translate = (0, 0.51, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_002_fixture_switch_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_switch_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Foyer Light Switch"
+                    double mass_kg = 0.122
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_switch_a01.2026.11.09_133753152443"
+                    string room = "Entry Foyer"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (0.785, 1.18, 4.48)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.032, 0.083, 0.12)
+                double3 xformOp:translate = (0, 0.0415, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_003_fixture_ceilinglamp_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Foyer Recessed Light"
+                    double mass_kg = 0.258
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_b01.2026.11.05_151122357943"
+                    string room = "Entry Foyer"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-0.05, 2.985, 3.8)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.199, 0.009, 0.199)
+                double3 xformOp:translate = (0, 0.0045, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_004_textileDecor_rug_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "textileDecor_rug_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Living Area Rug"
+                    double mass_kg = 1.042
+                    string package_id = "simready.hf.nvidia.simready-assets.textileDecor_rug_a01.2026.11.12_070315207682"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float3 xformOp:scale = (3.5, 1, 3.1)
+            double3 xformOp:translate = (-2.75, 0.004, 2.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.776, 0.009, 1.076)
+                double3 xformOp:translate = (0, 0.0045, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_005_furniture_couch_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_couch_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "3-Seat Charcoal Sofa"
+                    double mass_kg = 15.536
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_couch_a01.2026.11.12_061231248439"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-3.65, 0, 2.45)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.892, 0.872, 2.284)
+                double3 xformOp:translate = (0, 0.436, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_006_sofa_soft_b02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Cream Upholstered Loveseat"
+                    double mass_kg = 31.588
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b02.2026.10.09_165626981862"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.85, 0, 0.75)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.703, 0.728, 1.526)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_007_sofa_soft_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Beige Accent Armchair"
+                    double mass_kg = 24.229
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b01.2026.10.09_165622181906"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 125
+            double3 xformOp:translate = (-1.75, 0, 4.05)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.708, 0.728, 0.713)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_008_furniture_table_coffee_low_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_table_coffee_low_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Oak & White Coffee Table"
+                    double mass_kg = 52.001
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_table_coffee_low_a01.2026.10.09_050900432739"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-2.05, 0, 2.45)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.6, 0.443, 1.2)
+                double3 xformOp:translate = (0, 0.2215, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_009_decor_book_b02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_book_b02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Art Monograph Book"
+                    double mass_kg = 0.154
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_book_b02.2026.11.11_083743025375"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 18
+            double3 xformOp:translate = (-2.12, 0.443, 2.28)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.243, 0.023, 0.187)
+                double3 xformOp:translate = (0, 0.0115, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_010_book_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "book_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Open Coffee Table Book"
+                    double mass_kg = 0.248
+                    string package_id = "simready.hf.nvidia.simready-assets.book_open_a01.2026.10.08_223618615815"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -12
+            double3 xformOp:translate = (-1.96, 0.443, 2.68)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.207, 0.037, 0.32)
+                double3 xformOp:translate = (0, 0.0185, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_011_decor_candle_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_candle_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Scented Pillar Candle"
+                    double mass_kg = 1.072
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_candle_a01.2026.10.09_003120764932"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-2.15, 0.443, 2.52)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.074, 0.075, 0.074)
+                double3 xformOp:translate = (0, 0.0375, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_012_dishware_mug_coffee_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_mug_coffee_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Ceramic Coffee Mug"
+                    double mass_kg = 1.501
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_mug_coffee_a01.2026.10.09_005715571964"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 40
+            double3 xformOp:translate = (-1.92, 0.443, 2.22)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.121, 0.097, 0.081)
+                double3 xformOp:translate = (0, 0.0485, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_013_fixture_cabinet_d01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_d01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "TV Media Credenza"
+                    double mass_kg = 2.131
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_d01.2026.10.09_032348487176"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (1, 0.88, 1.55)
+            double3 xformOp:translate = (0.58, 0, 2.38)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.394, 0.764, 1.143)
+                double3 xformOp:translate = (0, 0.382, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_014_TV_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "TV_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wall-Mounted Smart TV"
+                    double mass_kg = 35.299
+                    string package_id = "simready.hf.nvidia.simready-assets.TV_a01.2026.10.08_210106997459"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (1, 1.15, 1.15)
+            double3 xformOp:translate = (0.73, 1.05, 2.38)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.106, 0.755, 1.272)
+                double3 xformOp:translate = (0, 0.3775, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_015_misc_speaker_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "misc_speaker_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Left Stereo Speaker"
+                    double mass_kg = 0.001
+                    string package_id = "simready.hf.nvidia.simready-assets.misc_speaker_a01.2026.11.11_182135810387"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (0.35, 0.42, 0.35)
+            double3 xformOp:translate = (0.58, 0.672, 1.68)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.656, 0.44, 0.754)
+                double3 xformOp:translate = (0, 0.22, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_016_misc_speaker_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "misc_speaker_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Right Stereo Speaker"
+                    double mass_kg = 0.001
+                    string package_id = "simready.hf.nvidia.simready-assets.misc_speaker_a01.2026.11.11_182135810387"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (0.35, 0.42, 0.35)
+            double3 xformOp:translate = (0.58, 0.672, 3.08)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.656, 0.44, 0.754)
+                double3 xformOp:translate = (0, 0.22, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_017_decor_candleholder_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_candleholder_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wire Lantern Candleholder"
+                    double mass_kg = 2.86
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_candleholder_a01.2026.11.06_113018482690"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (0.58, 0.672, 2.15)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.15, 0.164, 0.15)
+                double3 xformOp:translate = (0, 0.082, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_018_magazines_stack_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "magazines_stack_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Living Magazine Stack"
+                    double mass_kg = 0.355
+                    string package_id = "simready.hf.nvidia.simready-assets.magazines_stack_a01.2026.10.09_064641198031"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 15
+            double3 xformOp:translate = (0.58, 0.672, 2.62)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.211, 0.055, 0.256)
+                double3 xformOp:translate = (0, 0.0275, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_019_decor_guitar_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_guitar_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Acoustic Guitar on Stand"
+                    double mass_kg = 10.865
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_guitar_a01.2026.11.11_131942306649"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 35
+            double3 xformOp:translate = (-6.45, 0, 0.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.288, 1.138, 0.399)
+                double3 xformOp:translate = (0, 0.569, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_020_decor_plant_big_potted_c01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_plant_big_potted_c01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Tall Potted Ficus Tree"
+                    double mass_kg = 3.799
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_plant_big_potted_c01.2026.11.10_111124799917"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 25
+            double3 xformOp:translate = (-6.42, 0, 4.42)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.707, 1.23, 0.635)
+                double3 xformOp:translate = (0, 0.615, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_021_decor_painting_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_painting_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Framed Canvas Artwork"
+                    double mass_kg = 6.309
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_painting_a01.2026.11.12_015244139897"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float3 xformOp:scale = (1, 1.5, 1.5)
+            double3 xformOp:translate = (-6.98, 1.48, 3.95)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.026, 0.492, 0.592)
+                double3 xformOp:translate = (0, 0.246, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_022_decor_wallClock_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_wallClock_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Minimalist Wall Clock"
+                    double mass_kg = 0.002
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_wallClock_a01.2026.11.09_170131621819"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (1.2, 1.2, 1.2)
+            double3 xformOp:translate = (0.78, 1.88, 1.15)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.036, 0.27, 0.27)
+                double3 xformOp:translate = (0, 0.135, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_023_fixture_socket_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_socket_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wall Power Outlet"
+                    double mass_kg = 0.093
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_socket_a01.2026.11.09_162643726054"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (0.79, 0.35, 1.42)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.015, 0.089, 0.089)
+                double3 xformOp:translate = (0, 0.0445, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_024_blinds_window_4m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_4m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Panoramic Window Blinds"
+                    double mass_kg = 95.456
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_4m_open_a01.2026.10.08_221419411016"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            float3 xformOp:scale = (1, 0.9, 0.99)
+            double3 xformOp:translate = (-4.2, 0.29, 4.97)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 3.999)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_025_blinds_window_2m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_2m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "West Window Blinds"
+                    double mass_kg = 45.124
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            float3 xformOp:scale = (1, 0.79, 1.04)
+            double3 xformOp:translate = (-6.97, 0.53, 2.1)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 1.892)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_026_fixture_ceilinglamp_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Living Room Ceiling Light"
+                    double mass_kg = 0.608
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187"
+                    string room = "Living Room"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-3.6, 2.955, 2.45)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.374, 0.039, 0.374)
+                double3 xformOp:translate = (0, 0.0195, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_027_appliance_refrigerator_twoDoor_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "appliance_refrigerator_twoDoor_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Two-Door Refrigerator"
+                    double mass_kg = 5.681
+                    string package_id = "simready.hf.nvidia.simready-assets.appliance_refrigerator_twoDoor_a01.2026.11.10_145032837722"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-6.48, 0, -4.6)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.744, 1.797, 0.913)
+                double3 xformOp:translate = (0, 0.8985, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_028_appliance_dishwasher_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "appliance_dishwasher_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Stainless Dishwasher"
+                    double mass_kg = 1.659
+                    string package_id = "simready.hf.nvidia.simready-assets.appliance_dishwasher_b01.2026.11.11_163929784972"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-5.66, 0, -4.67)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.594, 0.85, 0.599)
+                double3 xformOp:translate = (0, 0.425, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_029_fixture_counter_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_counter_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Kitchen Sink Counter"
+                    double mass_kg = 32.976
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_counter_a01.2026.10.10_185802539552"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-3.82, 0, -4.64)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.68, 0.927, 3.023)
+                double3 xformOp:translate = (0, 0.4635, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_030_fixture_sink_basin_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_sink_basin_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Double Stainless Sink"
+                    double mass_kg = 15.215
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_sink_basin_b01.2026.11.10_113930505458"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-4.125, 0.537, -4.64)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.596, 0.414, 0.8)
+                double3 xformOp:translate = (0, 0.207, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_031_fixture_faucet_stainless_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_faucet_stainless_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Kitchen Gooseneck Faucet"
+                    double mass_kg = 0.301
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_faucet_stainless_a01.2026.11.10_123025944151"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-4.125, 0.927, -4.85)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.308, 0.25, 0.051)
+                double3 xformOp:translate = (0, 0.125, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_032_cleaning_soapDispenser_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "cleaning_soapDispenser_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dish Soap Dispenser"
+                    double mass_kg = 0.015
+                    string package_id = "simready.hf.nvidia.simready-assets.cleaning_soapDispenser_a01.2026.10.09_230130152728"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-3.64, 0.927, -4.82)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.075, 0.182, 0.07)
+                double3 xformOp:translate = (0, 0.091, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_033_appliance_toaster_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "appliance_toaster_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "2-Slice Stainless Toaster"
+                    double mass_kg = 0.015
+                    string package_id = "simready.hf.nvidia.simready-assets.appliance_toaster_a01.2026.10.13_180535304265"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-5.02, 0.927, -4.68)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.307, 0.179, 0.155)
+                double3 xformOp:translate = (0, 0.0895, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_034_utensil_cuttingBoard_wooden_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "utensil_cuttingBoard_wooden_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wooden Cutting Board"
+                    double mass_kg = 1.738
+                    string package_id = "simready.hf.nvidia.simready-assets.utensil_cuttingBoard_wooden_a01.2026.11.12_010111361287"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -82
+            double3 xformOp:translate = (-3.12, 0.927, -4.58)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.445, 0.026, 0.247)
+                double3 xformOp:translate = (0, 0.013, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_035_utensil_knife_set_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "utensil_knife_set_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wooden Knife Block"
+                    double mass_kg = 0.883
+                    string package_id = "simready.hf.nvidia.simready-assets.utensil_knife_set_a01.2026.11.04_102926129587"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -105
+            double3 xformOp:translate = (-2.62, 0.927, -4.76)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.168, 0.394, 0.254)
+                double3 xformOp:translate = (0, 0.197, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_036_fixture_cabinet_pantry_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_pantry_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Cooktop Base Cabinet"
+                    double mass_kg = 5.222
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_pantry_a01.2026.11.11_153228635543"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.62, 0, -4.64)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.682, 0.901, 1.315)
+                double3 xformOp:translate = (0, 0.4505, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_037_appliance_gasStove_table_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "appliance_gasStove_table_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Two-Burner Gas Cooktop"
+                    double mass_kg = 0.021
+                    string package_id = "simready.hf.nvidia.simready-assets.appliance_gasStove_table_a01.2026.11.13_042848436849"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.62, 0.901, -4.62)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.49, 0.16, 0.753)
+                double3 xformOp:translate = (0, 0.08, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_038_cookware_pot_copper_d01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "cookware_pot_copper_d01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Copper Stockpot"
+                    double mass_kg = 8.912
+                    string package_id = "simready.hf.nvidia.simready-assets.cookware_pot_copper_d01.2026.11.12_124343213402"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.81, 1.04, -4.62)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.264, 0.196, 0.341)
+                double3 xformOp:translate = (0, 0.098, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_039_cookware_pan_copper_b02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "cookware_pan_copper_b02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Copper Frying Pan"
+                    double mass_kg = 11.822
+                    string package_id = "simready.hf.nvidia.simready-assets.cookware_pan_copper_b02.2026.11.12_094132817315"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 25
+            double3 xformOp:translate = (-1.42, 1.04, -4.62)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.198, 0.034, 0.397)
+                double3 xformOp:translate = (0, 0.017, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_040_appliance_stoveHood_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "appliance_stoveHood_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Range Hood Extractor"
+                    double mass_kg = 0.98
+                    string package_id = "simready.hf.nvidia.simready-assets.appliance_stoveHood_a01.2026.11.02_171245304288"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.62, 1.9, -4.72)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.509, 0.071, 0.6)
+                double3 xformOp:translate = (0, 0.0355, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_041_fixture_cabinet_top_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_top_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Upper Wall Cabinet Left"
+                    double mass_kg = 10.726
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_top_a01.2026.11.11_160411418893"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-5.6, 1.62, -4.77)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.446, 0.799, 0.6)
+                double3 xformOp:translate = (0, 0.3995, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_042_fixture_cabinet_top_a02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_top_a02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Upper Wall Cabinet Mid"
+                    double mass_kg = 1.301
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_top_a02.2026.11.02_115838321943"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-2.62, 1.62, -4.77)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.446, 0.6, 0.6)
+                double3 xformOp:translate = (0, 0.3, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_043_fixture_cabinet_top_a02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_top_a02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Upper Cabinet Above Hood"
+                    double mass_kg = 1.301
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_top_a02.2026.11.02_115838321943"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.62, 2.04, -4.77)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.446, 0.6, 0.6)
+                double3 xformOp:translate = (0, 0.3, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_044_furniture_counter_coffeeStation_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_counter_coffeeStation_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Espresso & Pantry Hutch"
+                    double mass_kg = 0.002
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_counter_coffeeStation_a01.2026.10.09_051140413358"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-0.08, 0, -4.65)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.65, 2, 1.7)
+                double3 xformOp:translate = (0, 1, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_045_dishware_mug_coffee_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_mug_coffee_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Espresso Mug"
+                    double mass_kg = 1.501
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_mug_coffee_a01.2026.10.09_005715571964"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -40
+            double3 xformOp:translate = (-0.3, 0.858, -4.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.121, 0.097, 0.081)
+                double3 xformOp:translate = (0, 0.0485, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_046_dishware_mug_coffee_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_mug_coffee_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Latte Mug"
+                    double mass_kg = 1.501
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_mug_coffee_a01.2026.10.09_005715571964"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -115
+            double3 xformOp:translate = (0.12, 0.858, -4.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.121, 0.097, 0.081)
+                double3 xformOp:translate = (0, 0.0485, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_047_fixture_cabinet_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Side Prep Drawer Cabinet"
+                    double mass_kg = 2.698
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_b01.2026.10.09_230820079872"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-6.64, 0, -3.42)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.679, 0.928, 0.762)
+                double3 xformOp:translate = (0, 0.464, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_048_decor_plant_dried_vase_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_plant_dried_vase_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dried Botanical Vase"
+                    double mass_kg = 0.5
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_plant_dried_vase_a01.2026.11.12_051609242554"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-6.64, 0.928, -3.42)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.551, 0.684, 0.539)
+                double3 xformOp:translate = (0, 0.342, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_049_bin_waste_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "bin_waste_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Kitchen Step Waste Bin"
+                    double mass_kg = 8.271
+                    string package_id = "simready.hf.nvidia.simready-assets.bin_waste_a01.2026.10.10_004650961533"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float3 xformOp:scale = (1.45, 1.45, 1.45)
+            double3 xformOp:translate = (-6.75, 0, -2.75)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.238, 0.28, 0.18)
+                double3 xformOp:translate = (0, 0.14, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_050_fixture_island_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_island_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Butcher-Block Kitchen Island"
+                    double mass_kg = 43.384
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_island_a01.2026.10.09_032823391094"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-4.25, 0, -2.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.631, 0.9, 1.241)
+                double3 xformOp:translate = (0, 0.45, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_051_furniture_highstool_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_highstool_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Island Bar Stool 1"
+                    double mass_kg = 6.306
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_highstool_a01.2026.11.06_152428782491"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            double3 xformOp:translate = (-4.68, 0, -2.02)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.334, 0.7, 0.334)
+                double3 xformOp:translate = (0, 0.35, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_052_furniture_highstool_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_highstool_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Island Bar Stool 2"
+                    double mass_kg = 6.306
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_highstool_a01.2026.11.06_152428782491"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            double3 xformOp:translate = (-4.25, 0, -2.02)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.334, 0.7, 0.334)
+                double3 xformOp:translate = (0, 0.35, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_053_furniture_highstool_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_highstool_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Island Bar Stool 3"
+                    double mass_kg = 6.306
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_highstool_a01.2026.11.06_152428782491"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            double3 xformOp:translate = (-3.82, 0, -2.02)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.334, 0.7, 0.334)
+                double3 xformOp:translate = (0, 0.35, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_054_dishware_bowl_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_bowl_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Fruit Bowl"
+                    double mass_kg = 1
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_bowl_a01.2026.10.27_030534809503"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-4.55, 0.9, -2.55)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.163, 0.055, 0.163)
+                double3 xformOp:translate = (0, 0.0275, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_055_food_banana_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "food_banana_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Fresh Bananas"
+                    double mass_kg = 0.273
+                    string package_id = "simready.hf.nvidia.simready-assets.food_banana_a01.2026.10.28_145834909114"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 35
+            double3 xformOp:translate = (-4.55, 0.925, -2.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.039, 0.074, 0.197)
+                double3 xformOp:translate = (0, 0.037, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_056_dishware_plate_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_plate_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Breakfast Plate"
+                    double mass_kg = 0.904
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_plate_a01.2026.11.12_065142174474"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-3.95, 0.9, -2.42)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.267, 0.02, 0.267)
+                double3 xformOp:translate = (0, 0.01, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_057_grocery_bakery_croissant_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "grocery_bakery_croissant_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Fresh Croissant"
+                    double mass_kg = 0.076
+                    string package_id = "simready.hf.nvidia.simready-assets.grocery_bakery_croissant_a01.2026.11.04_050141431857"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -25
+            double3 xformOp:translate = (-3.95, 0.92, -2.42)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.16, 0.043, 0.067)
+                double3 xformOp:translate = (0, 0.0215, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_058_desk_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "desk_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Modern Dining Table"
+                    double mass_kg = 120.565
+                    string package_id = "simready.hf.nvidia.simready-assets.desk_a01.2026.10.09_004641265661"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (-1.25, 0, -2.35)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.802, 0.759, 1.802)
+                double3 xformOp:translate = (0, 0.3795, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_059_chair_office_amf_black_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "chair_office_amf_black_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Chair NW"
+                    double mass_kg = 7.449
+                    string package_id = "simready.hf.nvidia.simready-assets.chair_office_amf_black_a01.2026.10.09_203814173080"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.62, 0, -2.92)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.54, 0.81, 0.572)
+                double3 xformOp:translate = (0, 0.405, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_060_chair_office_amf_black_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "chair_office_amf_black_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Chair NE"
+                    double mass_kg = 7.449
+                    string package_id = "simready.hf.nvidia.simready-assets.chair_office_amf_black_a01.2026.10.09_203814173080"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-0.88, 0, -2.92)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.54, 0.81, 0.572)
+                double3 xformOp:translate = (0, 0.405, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_061_chair_office_amf_black_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "chair_office_amf_black_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Chair SW"
+                    double mass_kg = 7.449
+                    string package_id = "simready.hf.nvidia.simready-assets.chair_office_amf_black_a01.2026.10.09_203814173080"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (-1.62, 0, -1.78)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.54, 0.81, 0.572)
+                double3 xformOp:translate = (0, 0.405, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_062_chair_office_amf_black_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "chair_office_amf_black_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Chair SE"
+                    double mass_kg = 7.449
+                    string package_id = "simready.hf.nvidia.simready-assets.chair_office_amf_black_a01.2026.10.09_203814173080"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (-0.88, 0, -1.78)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.54, 0.81, 0.572)
+                double3 xformOp:translate = (0, 0.405, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_063_decor_vase_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_vase_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Table Ceramic Centerpiece"
+                    double mass_kg = 4.828
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_vase_a01.2026.11.05_161939194382"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.25, 0.759, -2.35)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.125, 0.25, 0.125)
+                double3 xformOp:translate = (0, 0.125, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_064_dishware_plate_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_plate_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Plate West"
+                    double mass_kg = 0.904
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_plate_a01.2026.11.12_065142174474"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.62, 0.759, -2.48)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.267, 0.02, 0.267)
+                double3 xformOp:translate = (0, 0.01, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_065_dishware_plate_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_plate_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Plate East"
+                    double mass_kg = 0.904
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_plate_a01.2026.11.12_065142174474"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-0.88, 0.759, -2.22)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.267, 0.02, 0.267)
+                double3 xformOp:translate = (0, 0.01, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_066_dishware_glass_wineRed_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_glass_wineRed_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wine Glass West"
+                    double mass_kg = 0.67
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_glass_wineRed_b01.2026.11.06_093444267358"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.48, 0.759, -2.56)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.073, 0.193, 0.073)
+                double3 xformOp:translate = (0, 0.0965, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_067_dishware_glass_wineRed_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_glass_wineRed_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wine Glass East"
+                    double mass_kg = 0.67
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_glass_wineRed_b01.2026.11.06_093444267358"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.02, 0.759, -2.14)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.073, 0.193, 0.073)
+                double3 xformOp:translate = (0, 0.0965, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_068_fixture_ceilinglamp_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Kitchen Ceiling Light"
+                    double mass_kg = 0.608
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-3.9, 2.955, -2.6)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.374, 0.039, 0.374)
+                double3 xformOp:translate = (0, 0.0195, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_069_fixture_ceilinglamp_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dining Recessed Light"
+                    double mass_kg = 0.258
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_b01.2026.11.05_151122357943"
+                    string room = "Kitchen & Dining"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-1.25, 2.985, -2.35)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.199, 0.009, 0.199)
+                double3 xformOp:translate = (0, 0.0045, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_070_decor_painting_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_painting_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Hallway Framed Painting"
+                    double mass_kg = 6.309
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_painting_a01.2026.11.12_015244139897"
+                    string room = "Hallway Gallery"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            float3 xformOp:scale = (1, 1.35, 1.35)
+            double3 xformOp:translate = (2.05, 1.52, -1.78)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.026, 0.492, 0.592)
+                double3 xformOp:translate = (0, 0.246, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_071_fixture_ceilinglamp_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Hallway Recessed Light"
+                    double mass_kg = 0.258
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_b01.2026.11.05_151122357943"
+                    string room = "Hallway Gallery"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (2.05, 2.985, -0.35)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.199, 0.009, 0.199)
+                double3 xformOp:translate = (0, 0.0045, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_072_toilet_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "toilet_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Porcelain Toilet"
+                    double mass_kg = 1.366
+                    string package_id = "simready.hf.nvidia.simready-assets.toilet_a01.2026.10.09_181400690176"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (1.31, 0, -3.05)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.706, 1.038, 0.405)
+                double3 xformOp:translate = (0, 0.519, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_073_fixture_toiletPaperHolder_double_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_toiletPaperHolder_double_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Toilet Paper Holder"
+                    double mass_kg = 13.213
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_toiletPaperHolder_double_a01.2026.10.09_033049914806"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (1.02, 0.68, -2.48)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.151, 0.1, 0.452)
+                double3 xformOp:translate = (0, 0.05, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_074_fixture_cabinet_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bathroom Vanity Cabinet"
+                    double mass_kg = 2.537
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_a01.2026.10.09_032343381714"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (2.98, 0, -3.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.405, 0.762, 0.764)
+                double3 xformOp:translate = (0, 0.381, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_075_washBasin_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "washBasin_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Porcelain Vanity Basin"
+                    double mass_kg = 15.462
+                    string package_id = "simready.hf.nvidia.simready-assets.washBasin_a01.2026.10.10_190711015736"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (2.98, 0.536, -3.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.35, 0.461, 0.576)
+                double3 xformOp:translate = (0, 0.2305, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_076_mirror_bathroom_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "mirror_bathroom_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Pill Bathroom Mirror"
+                    double mass_kg = 14.185
+                    string package_id = "simready.hf.nvidia.simready-assets.mirror_bathroom_a01.2026.10.09_065458130249"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (3.17, 1.38, -3.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.036, 0.5, 0.8)
+                double3 xformOp:translate = (0, 0.25, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_077_cleaning_soapDispenser_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "cleaning_soapDispenser_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Hand Soap Dispenser"
+                    double mass_kg = 0.015
+                    string package_id = "simready.hf.nvidia.simready-assets.cleaning_soapDispenser_a01.2026.10.09_230130152728"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (2.95, 0.762, -3.14)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.075, 0.182, 0.07)
+                double3 xformOp:translate = (0, 0.091, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_078_cleaning_towel_folded_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "cleaning_towel_folded_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Folded Bath Towels"
+                    double mass_kg = 0.565
+                    string package_id = "simready.hf.nvidia.simready-assets.cleaning_towel_folded_a01.2026.11.04_170911081846"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (2.95, 0.762, -3.76)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.265, 0.058, 0.176)
+                double3 xformOp:translate = (0, 0.029, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_079_storage_bin_bamboo_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "storage_bin_bamboo_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bamboo Laundry Hamper"
+                    double mass_kg = 4
+                    string package_id = "simready.hf.nvidia.simready-assets.storage_bin_bamboo_a01.2026.11.10_153017098228"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (2.88, 0, -4.68)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.35, 0.914, 0.45)
+                double3 xformOp:translate = (0, 0.457, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_080_bin_waste_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "bin_waste_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bathroom Waste Bin"
+                    double mass_kg = 8.271
+                    string package_id = "simready.hf.nvidia.simready-assets.bin_waste_a01.2026.10.10_004650961533"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (3.02, 0, -2.82)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.238, 0.28, 0.18)
+                double3 xformOp:translate = (0, 0.14, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_081_fixture_ceilinglamp_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bathroom Ceiling Light"
+                    double mass_kg = 0.608
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187"
+                    string room = "Bathroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (2.1, 2.955, -3.45)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.374, 0.039, 0.374)
+                double3 xformOp:translate = (0, 0.0195, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_082_textileDecor_rug_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "textileDecor_rug_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Wool Area Rug"
+                    double mass_kg = 1.042
+                    string package_id = "simready.hf.nvidia.simready-assets.textileDecor_rug_a01.2026.11.12_070315207682"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float3 xformOp:scale = (3, 1, 2.8)
+            double3 xformOp:translate = (5.18, 0.004, -3.55)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.776, 0.009, 1.076)
+                double3 xformOp:translate = (0, 0.0045, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_083_bedding_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "bedding_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Mattress & Bedding Left"
+                    double mass_kg = 3.775
+                    string package_id = "simready.hf.nvidia.simready-assets.bedding_a01.2026.10.12_205940615443"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (4.74, 0.28, -3.84)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (2.032, 0.399, 0.87)
+                double3 xformOp:translate = (0, 0.1995, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_084_bedding_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "bedding_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Mattress & Bedding Right"
+                    double mass_kg = 3.775
+                    string package_id = "simready.hf.nvidia.simready-assets.bedding_a01.2026.10.12_205940615443"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (5.62, 0.28, -3.84)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (2.032, 0.399, 0.87)
+                double3 xformOp:translate = (0, 0.1995, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_085_fixture_cabinet_single_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_single_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Walnut Nightstand Left"
+                    double mass_kg = 13.767
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_single_a01.2026.11.11_111929037595"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            float3 xformOp:scale = (0.75, 0.62, 1.15)
+            double3 xformOp:translate = (3.86, 0, -4.64)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.682, 0.901, 0.394)
+                double3 xformOp:translate = (0, 0.4505, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_086_fixture_cabinet_single_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_single_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Walnut Nightstand Right"
+                    double mass_kg = 13.767
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_single_a01.2026.11.11_111929037595"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            float3 xformOp:scale = (0.75, 0.62, 1.15)
+            double3 xformOp:translate = (6.5, 0, -4.64)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.682, 0.901, 0.394)
+                double3 xformOp:translate = (0, 0.4505, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_087_lamp_table_bedside_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "lamp_table_bedside_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedside Lamp Left"
+                    double mass_kg = 0.1
+                    string package_id = "simready.hf.nvidia.simready-assets.lamp_table_bedside_a01.2026.10.09_063506686113"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (3.84, 0.558, -4.68)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.198, 0.372, 0.199)
+                double3 xformOp:translate = (0, 0.186, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_088_lamp_table_bedside_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "lamp_table_bedside_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedside Lamp Right"
+                    double mass_kg = 0.1
+                    string package_id = "simready.hf.nvidia.simready-assets.lamp_table_bedside_a01.2026.10.09_063506686113"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (6.52, 0.558, -4.68)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.198, 0.372, 0.199)
+                double3 xformOp:translate = (0, 0.186, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_089_decor_photoFrame_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_photoFrame_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedside Photo Frame"
+                    double mass_kg = 1.493
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_photoFrame_a01.2026.11.10_142117409001"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -65
+            double3 xformOp:translate = (4, 0.558, -4.52)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.097, 0.191, 0.151)
+                double3 xformOp:translate = (0, 0.0955, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_090_decor_candle_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_candle_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedside Candle"
+                    double mass_kg = 1.072
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_candle_a01.2026.10.09_003120764932"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (6.36, 0.558, -4.52)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.074, 0.075, 0.074)
+                double3 xformOp:translate = (0, 0.0375, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_091_sofa_soft_b02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Window Settee"
+                    double mass_kg = 31.588
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b02.2026.10.09_165626981862"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (6.55, 0, -2.05)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.703, 0.728, 1.526)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_092_fixture_cabinet_d01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_cabinet_d01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Credenza Dresser"
+                    double mass_kg = 2.131
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_cabinet_d01.2026.10.09_032348487176"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            float3 xformOp:scale = (1, 1, 1.25)
+            double3 xformOp:translate = (5.18, 0, 0.9)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.394, 0.764, 1.143)
+                double3 xformOp:translate = (0, 0.382, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_093_decor_mirror_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_mirror_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dresser Wall Mirror"
+                    double mass_kg = 69.932
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_mirror_a01.2026.11.09_130121168139"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            double3 xformOp:translate = (5.18, 1.38, 1.1)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.039, 1.02, 0.74)
+                double3 xformOp:translate = (0, 0.51, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_094_decor_vase_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_vase_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Ceramic Vase"
+                    double mass_kg = 4.828
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_vase_a01.2026.11.05_161939194382"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (5.55, 0.764, 0.9)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.125, 0.25, 0.125)
+                double3 xformOp:translate = (0, 0.125, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_095_decor_candleholder_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_candleholder_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Dresser Lantern"
+                    double mass_kg = 2.86
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_candleholder_a01.2026.11.06_113018482690"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (4.8, 0.764, 0.9)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.15, 0.164, 0.15)
+                double3 xformOp:translate = (0, 0.082, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_096_humidifier_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "humidifier_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Air Humidifier"
+                    double mass_kg = 2
+                    string package_id = "simready.hf.nvidia.simready-assets.humidifier_a01.2026.10.10_005708791089"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 45
+            double3 xformOp:translate = (3.65, 0, 0.85)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.315, 0.96, 0.319)
+                double3 xformOp:translate = (0, 0.48, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_097_fixture_switch_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_switch_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Light Switch"
+                    double mass_kg = 0.122
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_switch_a01.2026.11.09_133753152443"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (3.35, 1.18, -1.42)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.032, 0.083, 0.12)
+                double3 xformOp:translate = (0, 0.0415, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_098_blinds_window_2m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_2m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom North Blinds"
+                    double mass_kg = 45.124
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            float3 xformOp:scale = (1, 0.76, 1.04)
+            double3 xformOp:translate = (5.2, 0.62, -4.97)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 1.892)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_099_blinds_window_2m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_2m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom East Blinds"
+                    double mass_kg = 45.124
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (1, 0.76, 1.04)
+            double3 xformOp:translate = (6.97, 0.62, -2.6)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 1.892)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_100_fixture_ceilinglamp_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Bedroom Ceiling Light"
+                    double mass_kg = 0.608
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187"
+                    string room = "Primary Bedroom"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (5.18, 2.955, -2)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.374, 0.039, 0.374)
+                double3 xformOp:translate = (0, 0.0195, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_101_desk_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "desk_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Executive Studio Desk"
+                    double mass_kg = 120.565
+                    string package_id = "simready.hf.nvidia.simready-assets.desk_a01.2026.10.09_004641265661"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            double3 xformOp:translate = (3.55, 0, 3.85)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.802, 0.759, 1.802)
+                double3 xformOp:translate = (0, 0.3795, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_102_chair_office_fabric_manager_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "chair_office_fabric_manager_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Ergonomic Office Chair"
+                    double mass_kg = 0.025
+                    string package_id = "simready.hf.nvidia.simready-assets.chair_office_fabric_manager_a01.2026.10.08_232239280087"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 15
+            double3 xformOp:translate = (3.55, 0, 3.12)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.622, 1.091, 0.706)
+                double3 xformOp:translate = (0, 0.5455, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_103_computer_monitor_office_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "computer_monitor_office_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Widescreen Display"
+                    double mass_kg = 1.095
+                    string package_id = "simready.hf.nvidia.simready-assets.computer_monitor_office_a01.2026.10.09_203830439655"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (3.55, 0.759, 4.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.542, 0.394, 0.172)
+                double3 xformOp:translate = (0, 0.197, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_104_computer_keyboard_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "computer_keyboard_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Mechanical Keyboard"
+                    double mass_kg = 0.556
+                    string package_id = "simready.hf.nvidia.simready-assets.computer_keyboard_a01.2026.10.09_203825228362"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (3.55, 0.759, 3.74)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.442, 0.02, 0.142)
+                double3 xformOp:translate = (0, 0.01, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_105_computer_mouse_office_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "computer_mouse_office_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Wireless Mouse & Pad"
+                    double mass_kg = 0
+                    string package_id = "simready.hf.nvidia.simready-assets.computer_mouse_office_b01.2026.10.08_233725687549"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (3.95, 0.759, 3.74)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.254, 0.041, 0.191)
+                double3 xformOp:translate = (0, 0.0205, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_106_misc_headphones_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "misc_headphones_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Studio Headphones"
+                    double mass_kg = 0.189
+                    string package_id = "simready.hf.nvidia.simready-assets.misc_headphones_a01.2026.11.11_144243037242"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 35
+            double3 xformOp:translate = (2.88, 0.759, 3.76)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.192, 0.082, 0.191)
+                double3 xformOp:translate = (0, 0.041, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_107_dishware_mug_coffee_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "dishware_mug_coffee_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Desk Coffee Mug"
+                    double mass_kg = 1.501
+                    string package_id = "simready.hf.nvidia.simready-assets.dishware_mug_coffee_a01.2026.10.09_005715571964"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 20
+            double3 xformOp:translate = (3.1, 0.759, 3.66)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.121, 0.097, 0.081)
+                double3 xformOp:translate = (0, 0.0485, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_108_lamp_table_bedside_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "lamp_table_bedside_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Desk Task Lamp"
+                    double mass_kg = 0.1
+                    string package_id = "simready.hf.nvidia.simready-assets.lamp_table_bedside_a01.2026.10.09_063506686113"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (4.26, 0.759, 4.02)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.198, 0.372, 0.199)
+                double3 xformOp:translate = (0, 0.186, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_109_computer_desktop_tower_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "computer_desktop_tower_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Workstation Desktop PC"
+                    double mass_kg = 35.304
+                    string package_id = "simready.hf.nvidia.simready-assets.computer_desktop_tower_a01.2026.10.09_203820874063"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (4.62, 0, 3.92)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.197, 0.49, 0.624)
+                double3 xformOp:translate = (0, 0.245, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_110_trashCan_office_black_a03" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "trashCan_office_black_a03"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study Wastebasket"
+                    double mass_kg = 0.35
+                    string package_id = "simready.hf.nvidia.simready-assets.trashCan_office_black_a03.2026.10.09_181644006457"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (2.46, 0, 3.82)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.4, 0.5, 0.3)
+                double3 xformOp:translate = (0, 0.25, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_111_storage_shelf_basic_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "storage_shelf_basic_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "5-Tier Open Bookcase"
+                    double mass_kg = 3010.833
+                    string package_id = "simready.hf.nvidia.simready-assets.storage_shelf_basic_a01.2026.10.09_171950089564"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -90
+            float3 xformOp:scale = (0.35, 0.82, 0.75)
+            double3 xformOp:translate = (4.6, 0, 1.54)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (1.267, 2.423, 2.494)
+                double3 xformOp:translate = (0, 1.2115, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_112_decor_book_b02" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_book_b02"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Shelf Reference Book"
+                    double mass_kg = 0.154
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_book_b02.2026.11.11_083743025375"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 12
+            double3 xformOp:translate = (4.25, 0.99, 1.54)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.243, 0.023, 0.187)
+                double3 xformOp:translate = (0, 0.0115, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_113_decor_photoFrame_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_photoFrame_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Shelf Framed Photo"
+                    double mass_kg = 1.493
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_photoFrame_a01.2026.11.10_142117409001"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -105
+            double3 xformOp:translate = (4.95, 0.99, 1.54)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.097, 0.191, 0.151)
+                double3 xformOp:translate = (0, 0.0955, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_114_magazines_stack_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "magazines_stack_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Design Magazines"
+                    double mass_kg = 0.355
+                    string package_id = "simready.hf.nvidia.simready-assets.magazines_stack_a01.2026.10.09_064641198031"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 5
+            double3 xformOp:translate = (4.6, 1.46, 1.54)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.211, 0.055, 0.256)
+                double3 xformOp:translate = (0, 0.0275, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_115_sofa_soft_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study Reading Chair"
+                    double mass_kg = 24.229
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b01.2026.10.09_165622181906"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -135
+            double3 xformOp:translate = (6.22, 0, 2.08)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.708, 0.728, 0.713)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_116_decor_plant_big_potted_c01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_plant_big_potted_c01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study Potted Plant"
+                    double mass_kg = 3.799
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_plant_big_potted_c01.2026.11.10_111124799917"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -35
+            double3 xformOp:translate = (6.38, 0, 4.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.707, 1.23, 0.635)
+                double3 xformOp:translate = (0, 0.615, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_117_fixture_socket_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_socket_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study Wall Outlet"
+                    double mass_kg = 0.093
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_socket_a01.2026.11.09_162643726054"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            double3 xformOp:translate = (6.98, 0.35, 2.05)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.015, 0.089, 0.089)
+                double3 xformOp:translate = (0, 0.0445, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_118_blinds_window_2m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_2m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study South Blinds"
+                    double mass_kg = 45.124
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 90
+            float3 xformOp:scale = (1, 0.81, 1.04)
+            double3 xformOp:translate = (3.4, 0.48, 4.97)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 1.892)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_119_blinds_window_2m_open_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "blinds_window_2m_open_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study East Blinds"
+                    double mass_kg = 45.124
+                    string package_id = "simready.hf.nvidia.simready-assets.blinds_window_2m_open_a01.2026.10.08_221140050543"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 180
+            float3 xformOp:scale = (1, 0.76, 1.04)
+            double3 xformOp:translate = (6.97, 0.62, 3.2)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY", "xformOp:scale"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.056, 2.567, 1.892)
+                double3 xformOp:translate = (0, 1.2835, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_120_fixture_ceilinglamp_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "fixture_ceilinglamp_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Study Ceiling Light"
+                    double mass_kg = 0.608
+                    string package_id = "simready.hf.nvidia.simready-assets.fixture_ceilinglamp_a01.2026.11.05_145928279187"
+                    string room = "Home Office"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (3.9, 2.955, 3.1)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.374, 0.039, 0.374)
+                double3 xformOp:translate = (0, 0.0195, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_121_furniture_coffeeTable_a01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "furniture_coffeeTable_a01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Patio Timber Coffee Table"
+                    double mass_kg = 25.921
+                    string package_id = "simready.hf.nvidia.simready-assets.furniture_coffeeTable_a01.2026.11.06_153739192438"
+                    string room = "Sun Deck & Entry"
+                }
+            }
+        )
+        {
+            double3 xformOp:translate = (-3.8, -0.005, 6.45)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (1.325, 0.481, 0.726)
+                double3 xformOp:translate = (0, 0.2405, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_122_sofa_soft_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Patio Lounge Chair West"
+                    double mass_kg = 24.229
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b01.2026.10.09_165622181906"
+                    string room = "Sun Deck & Entry"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 18
+            double3 xformOp:translate = (-4.9, -0.005, 6.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.708, 0.728, 0.713)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_123_sofa_soft_b01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "sofa_soft_b01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Patio Lounge Chair East"
+                    double mass_kg = 24.229
+                    string package_id = "simready.hf.nvidia.simready-assets.sofa_soft_b01.2026.10.09_165622181906"
+                    string room = "Sun Deck & Entry"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 162
+            double3 xformOp:translate = (-2.7, -0.005, 6.45)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.708, 0.728, 0.713)
+                double3 xformOp:translate = (0, 0.364, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_124_decor_plant_big_potted_c01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_plant_big_potted_c01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Front Entry Planter Left"
+                    double mass_kg = 3.799
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_plant_big_potted_c01.2026.11.10_111124799917"
+                    string room = "Sun Deck & Entry"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = 15
+            double3 xformOp:translate = (-1.15, -0.005, 5.75)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.707, 1.23, 0.635)
+                double3 xformOp:translate = (0, 0.615, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+
+        def Xform "Item_125_decor_plant_big_potted_c01" (
+            customData = {
+                dictionary simready = {
+                    string asset_id = "decor_plant_big_potted_c01"
+                    string huggingface_dataset = "https://huggingface.co/datasets/nvidia/simready-assets"
+                    string label = "Front Entry Planter Right"
+                    double mass_kg = 3.799
+                    string package_id = "simready.hf.nvidia.simready-assets.decor_plant_big_potted_c01.2026.11.10_111124799917"
+                    string room = "Sun Deck & Entry"
+                }
+            }
+        )
+        {
+            float xformOp:rotateY = -25
+            double3 xformOp:translate = (1.05, -0.005, 5.75)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateY"]
+
+            def Cube "SimReadyBoundsProxy"
+            {
+                double size = 1
+                float3 xformOp:scale = (0.707, 1.23, 0.635)
+                double3 xformOp:translate = (0, 0.615, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+        }
+    }
+}
+
